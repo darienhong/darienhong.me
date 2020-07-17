@@ -1,4 +1,4 @@
-{ 
+{
   "name": "darien",
   "homepage": "http://darienhong.github.io/darien",
   "version": "0.1.0",
@@ -9,6 +9,9 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-lottie": "^1.2.3",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {

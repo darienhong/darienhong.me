@@ -36,3 +36,268 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: 'Work Sans';
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  margin: 0;
+  
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 38px; 
+  line-height: 44px;
+  font-weight: bold;
+}
+
+
+
+
+h2 { 
+  font-size: 20;
+  font-weight: lighter;
+  
+}
+
+h3 { 
+  font-size: 16px;
+  font-weight: 300px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h4 { 
+  font-size: 14px; 
+  font-weight: lighter;
+  line-height: normal;
+
+}
+
+h5 { 
+  font-size: 20px; 
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'WorkSans';
+}
+
+a { 
+  color: black; 
+   text-decoration: none;
+}
+
+
+
+a:hover {
+   color:rgb(247, 209, 40);
+}
+
+.title-pic { 
+   padding-top: 30px;
+   width: 600px; 
+   height: 230px;
+}
+.heading {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  position: relative;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 10px;
+  text-align: center;
+  left: 25px;
+
+}
+
+div {
+  position: relative;
+  border: 1px none #000;
+  border-radius: 0px;
+}
+
+.image1 {
+  position: relative;
+  width: 567px;
+  height: 156px;
+  
+}
+
+.about-me {
+  position: relative;
+  top: 40px;
+  width: 320px;
+  height: 122px;
+
+}
+
+.purple-pic { 
+  width: 320px;
+  height: 291px;
+  float: left; 
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+
+.elections-pic { 
+  padding-top: 50px;
+  width: 800px; 
+  height: 205px; 
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.open-house-pic { 
+  width: 800px;
+  height: 273px;
+  position: relative;
+  padding-bottom: 20px;
+}
+.dc-pic, .tutor-pic, .team-pic { 
+  width: 800px; 
+  height: 273px; 
+  position: relative;
+  padding-bottom: 20px; 
+}
+
+.title-side { 
+  width: 130px;
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-left: 75px;
+}
+
+.title-side:hover {
+  opacity: 0.7;
+  }
+
+header {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.nav-bar-container {
+  width: 85%;
+  margin: 0 auto;
+  position: sticky;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  width: 130px;
+  height: 50px;
+}
+
+.logo:hover {
+  opacity: 0.70;
+}
+
+nav {
+  float: right;
+  position: sticky;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.2mm;
+  font-family: 'WorkSans';
+  color: rgb(172, 172, 172)
+}
+
+nav a:hover {
+  color: rgb(101, 128, 219);
+
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color:  rgb(101, 128, 219);
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.footer {
+  font-weight: lighter;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  margin: 0;
+  bottom: 0;
+}
+
+.homepage { 
+  width: 700px;
+  display: block; 
+  border: 1px solid black; 
+  border-radius: 20px;
+  box-shadow: 5px 5px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(226, 198, 198);
+}
+
+.svg-line { 
+  stroke-width: 3px;
+}
+.buttons { 
+  margin-left: 10px;
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;;
+  margin-bottom: 5px
+}
