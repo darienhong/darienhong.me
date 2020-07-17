@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/darien/static/css/main.5f361e03.chunk.css",
+    "main.js": "/darien/static/js/main.61386e61.chunk.js",
+    "main.js.map": "/darien/static/js/main.61386e61.chunk.js.map",
+    "runtime-main.js": "/darien/static/js/runtime-main.9dadd6b7.js",
+    "runtime-main.js.map": "/darien/static/js/runtime-main.9dadd6b7.js.map",
+    "static/js/2.9b0c0a40.chunk.js": "/darien/static/js/2.9b0c0a40.chunk.js",
+    "static/js/2.9b0c0a40.chunk.js.map": "/darien/static/js/2.9b0c0a40.chunk.js.map",
+    "index.html": "/darien/index.html",
+    "precache-manifest.bc07af6b93b97153701f0bb275ab4a6f.js": "/darien/precache-manifest.bc07af6b93b97153701f0bb275ab4a6f.js",
+    "service-worker.js": "/darien/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/darien/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.9b0c0a40.chunk.js.LICENSE.txt": "/darien/static/js/2.9b0c0a40.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/darien/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9dadd6b7.js",
+    "static/js/2.9b0c0a40.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.61386e61.chunk.js"
+  ]
+}
