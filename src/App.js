@@ -23,7 +23,9 @@ export default class Navbar extends Component {
               <Route path="/Experience">
                 <Experience />
               </Route>
-              <Route path="/Projects"/>
+              <Route path="/Projects">
+              <Projects />
+              </Route> 
               <Route path="/About">
                 <AboutMe />
               </Route>

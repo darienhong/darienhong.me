@@ -16,3 +16,12 @@ code {
   font-family: 'WorkSans';
   src: local('WorkSans'), url(./fonts/WorkSans-Regular.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'PlayFair';
+  src: local('PlayFair'), url(./fonts/PlayfairDisplay-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Abril';
+  src: local('Abril'), url(./fonts/AbrilFatface-Regular.ttf) format('truetype');
+}

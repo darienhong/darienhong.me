@@ -70,7 +70,8 @@ h1 {
 
 
 h2 { 
-  font-size: 20;
+  font-size: 40px;
+  font-family: 'Abril';
   font-weight: lighter;
   
 }
@@ -204,9 +205,10 @@ header::after {
 }
 
 .nav-bar-container {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
-  position: sticky;
+  position: fixed;
+  z-index: 5;
 }
 
 .logo {
@@ -281,14 +283,44 @@ nav a:hover::before {
 }
 
 .homepage { 
-  width: 700px;
+  width: 600px;
   display: block; 
   border: 1px solid black; 
   border-radius: 20px;
-  box-shadow: 5px 5px;
+  box-shadow: 7px 7px;
   text-align: center;
   justify-content: center;
-  background-color: rgb(226, 198, 198);
+  background-color: rgb(247, 227, 162);
+}
+
+.about { 
+  width: 800px;
+  height: 400px;
+  display: block; 
+  border: 1px solid black; 
+  border-radius: 20px;
+  box-shadow: 7px 7px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(192, 211, 228);
+
+}
+
+.about-text {
+  width: 760px;
+  height: 250px;
+  justify-content: center;
+  text-align: left;
+  padding-left: 40px;
+ 
+}
+
+.homepage-text {
+  
+  justify-content: center;
+  text-align: left;
+  padding-left: 40px;
+  overflow-y: auto;
 }
 
 .svg-line { 
@@ -298,6 +330,52 @@ nav a:hover::before {
   margin-left: 10px;
   margin-top: 5px;
   display: flex;
-  flex-wrap: wrap;;
-  margin-bottom: 5px
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-button { 
+  margin-left: 30px;
+  padding-top: 15px
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: rgb(101, 128, 219);
+
+}
+
+.exit-button:hover {
+  opacity: 0.5;
+}
+
+.exit-button {
+  cursor: pointer;
+}
+
+
+.full-page {
+  background-image: url(./assets/geometric.png);
+  min-height: 900px;
+  width: 100%;
+  background-repeat: repeat;
+}
+
+.appear-div { 
+  min-width: 1000px;
+  min-height: 900px;
+}
+
+.scrollbar{ 
+  background-color: white;
+ 
 }
