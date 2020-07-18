@@ -211,12 +211,7 @@ header::after {
   z-index: 5;
 }
 
-.logo {
-  float: left;
-  padding: 10px 0;
-  width: 130px;
-  height: 50px;
-}
+
 
 .logo:hover {
   opacity: 0.70;
@@ -411,4 +406,10 @@ nav a:hover::before {
   display: flex;
   flex-wrap: wrap;
   padding-right: 20px;
+}
+
+.logo {
+  width: 50px;
+  margin-left: 70px;
+  padding-top: 10px;
 }

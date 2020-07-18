@@ -6,13 +6,15 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import Logo from './assets/logo.png';
 
 export default class Navbar extends Component { 
     
     render() {
         return(
 
-            <div class="nav-bar-container">         
+            <div class="nav-bar-container">  
+           <Link to="/"> <img src={Logo} alt="logo" class="logo"/> </Link>
             <nav>
                 <ul>
                     <li><Link to="/About"> About </Link></li>
