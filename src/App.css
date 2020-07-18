@@ -110,7 +110,7 @@ a {
 
 
 a:hover {
-   color:rgb(247, 209, 40);
+   color: rgb(101, 128, 219);
 }
 
 .title-pic { 
@@ -295,7 +295,7 @@ nav a:hover::before {
 
 .about { 
   width: 800px;
-  height: 400px;
+  height: 550px;
   display: block; 
   border: 1px solid black; 
   border-radius: 20px;
@@ -306,12 +306,35 @@ nav a:hover::before {
 
 }
 
-.about-text {
+.experience { 
+  width: 800px;
+  height: 550px;
+  display: block; 
+  border: 1px solid black; 
+  border-radius: 20px;
+  box-shadow: 7px 7px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(255, 212, 163);
+
+}
+
+.experience-text { 
   width: 760px;
-  height: 250px;
+  height: 480px;
   justify-content: center;
   text-align: left;
   padding-left: 40px;
+
+}
+
+.about-text {
+  width: 760px;
+  height: 480px;
+  justify-content: center;
+  text-align: left;
+  padding-left: 40px;
+ 
  
 }
 
@@ -376,6 +399,16 @@ nav a:hover::before {
 }
 
 .scrollbar{ 
-  background-color: white;
+  color: white;
  
+}
+
+.me-pic {
+  vertical-align: middle;
+}
+
+.about-me-description {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 20px;
 }
