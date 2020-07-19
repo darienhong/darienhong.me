@@ -71,27 +71,28 @@ h1 {
 
 h2 { 
   font-size: 40px;
-  font-family: 'Abril';
-  font-weight: lighter;
+  font-family: 'Mirage Black';
+  font-weight: 800;
   
 }
 
 h3 { 
-  font-size: 16px;
-  font-weight: 300px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Jost';
 }
 
 h4 { 
-  font-size: 14px; 
+  font-size: 26px; 
   font-weight: lighter;
-  line-height: normal;
+  font-family: 'Bebas';
+  padding: 0px;
 
 }
 
 h5 { 
-  font-size: 20px; 
-  font-weight: 500;
+  font-size: 22px; 
+  font-weight: 400;
   line-height: normal;
 
 }
@@ -136,62 +137,7 @@ div {
   border-radius: 0px;
 }
 
-.image1 {
-  position: relative;
-  width: 567px;
-  height: 156px;
-  
-}
 
-.about-me {
-  position: relative;
-  top: 40px;
-  width: 320px;
-  height: 122px;
-
-}
-
-.purple-pic { 
-  width: 320px;
-  height: 291px;
-  float: left; 
-  margin-left: 20px;
-  margin-right: 10px;
-}
-
-
-.elections-pic { 
-  padding-top: 50px;
-  width: 800px; 
-  height: 205px; 
-  position: relative;
-  padding-bottom: 20px;
-}
-
-.open-house-pic { 
-  width: 800px;
-  height: 273px;
-  position: relative;
-  padding-bottom: 20px;
-}
-.dc-pic, .tutor-pic, .team-pic { 
-  width: 800px; 
-  height: 273px; 
-  position: relative;
-  padding-bottom: 20px; 
-}
-
-.title-side { 
-  width: 130px;
-  height: 50px;
-  padding-left: 10px;
-  padding-top: 10px;
-  margin-left: 75px;
-}
-
-.title-side:hover {
-  opacity: 0.7;
-  }
 
 header {
   background-color: rgb(255, 255, 255);
@@ -280,7 +226,7 @@ nav a:hover::before {
 .homepage { 
   width: 600px;
   display: block; 
-  border: 1px solid black; 
+  border: 2px solid black; 
   border-radius: 20px;
   box-shadow: 7px 7px;
   text-align: center;
@@ -292,7 +238,7 @@ nav a:hover::before {
   width: 800px;
   height: 550px;
   display: block; 
-  border: 1px solid black; 
+  border: 2px solid black; 
   border-radius: 20px;
   box-shadow: 7px 7px;
   text-align: center;
@@ -302,25 +248,42 @@ nav a:hover::before {
 }
 
 .experience { 
-  width: 800px;
+  width: 900px;
   height: 550px;
   display: block; 
-  border: 1px solid black; 
+  border: 2px solid black; 
   border-radius: 20px;
   box-shadow: 7px 7px;
   text-align: center;
   justify-content: center;
-  background-color: rgb(255, 212, 163);
+  background-color: rgb(255, 241, 225);
 
 }
 
 .experience-text { 
-  width: 760px;
+  width: 860px;
   height: 480px;
   justify-content: center;
   text-align: left;
   padding-left: 40px;
+}
 
+.exp-text { 
+  text-align: left;
+  margin-left: 20px;
+  padding-top: 1px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  line-height: 0.7mm;
+}
+
+.experience-description { 
+  padding-right: 40px;
+}
+
+.experience-block-1, .experience-block-2, .experience-block-3 { 
+  width: 810px; 
+  background-color: rgb(235, 212, 212);
 }
 
 .about-text {
@@ -329,12 +292,9 @@ nav a:hover::before {
   justify-content: center;
   text-align: left;
   padding-left: 40px;
- 
- 
 }
 
 .homepage-text {
-  
   justify-content: center;
   text-align: left;
   padding-left: 40px;
@@ -344,6 +304,7 @@ nav a:hover::before {
 .svg-line { 
   stroke-width: 3px;
 }
+
 .buttons { 
   margin-left: 10px;
   margin-top: 5px;
@@ -383,7 +344,7 @@ nav a:hover::before {
 
 .full-page {
   background-image: url(./assets/geometric.png);
-  min-height: 900px;
+  height: 100vh;
   width: 100%;
   background-repeat: repeat;
 }
@@ -413,3 +374,10 @@ nav a:hover::before {
   margin-left: 70px;
   padding-top: 10px;
 }
+
+.dropdown:hover {
+
+  color: rgb(101, 128, 219);
+}
+
+

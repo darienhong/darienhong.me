@@ -6,6 +6,7 @@ import animationData from './assets/office.json';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
+import Footer from './footer.jsx';
 
 export default class Home extends Component { 
 
@@ -102,8 +103,6 @@ export default class Home extends Component {
               </center>
             )}
             
-                
-
             </div>
 
         );

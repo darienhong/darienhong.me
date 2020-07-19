@@ -21,7 +21,38 @@ code {
   font-family: 'PlayFair';
   src: local('PlayFair'), url(./fonts/PlayfairDisplay-Regular.ttf) format('truetype');
 }
+
 @font-face {
   font-family: 'Abril';
   src: local('Abril'), url(./fonts/AbrilFatface-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: local('Jost'), url(./fonts/Jost-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Modern';
+  src: local('Modern'), url(./fonts/ModernSans-Light.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Mirage';
+  src: local('Mirage'), url(./fonts/Mirage.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Mirage Bold';
+  src: local('Mirage Bold'), url(./fonts/MirageBold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Mirage Black';
+  src: local('Mirage Black'), url(./fonts/MirageBlack.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Bebas';
+  src: local('Bebas'), url(./fonts/BebasNeue-Regular.ttf) format('truetype');
 }

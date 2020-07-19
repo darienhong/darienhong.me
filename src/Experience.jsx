@@ -9,10 +9,15 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
 
 export default class Experience extends Component { 
     state = {
         display: true, 
+        displayBlock1: false, 
+        displayBlock2: false,
+        displayBlock3: false,
     }
 
 
@@ -28,10 +33,35 @@ export default class Experience extends Component {
         })
     }
 
+    onClick1 = () => {
+        this.setState({
+            displayBlock1: !this.state.displayBlock1,
+        })
+    }
+
+    onClick2 = () => {
+        this.setState({
+            displayBlock2: !this.state.displayBlock2,
+        })
+    }
+
+    onClick3 = () => {
+        this.setState({
+            displayBlock3: !this.state.displayBlock3,
+        })
+    }
+
 
     render() {
 
-        const { display } = this.state;
+        const { 
+            display, 
+            displayBlock1,
+            displayBlock2,
+            displayBlock3,
+        
+        
+        } = this.state;
 
         return (
             <div class="full-page">
@@ -69,26 +99,96 @@ export default class Experience extends Component {
                      </svg>
                      </div>
                       <div style={{textAlign: "center"}}>
-                      <svg height={10} width={800}>
+                      <svg height={10} width={"100%"}>
                           <line class="svg-line" x1={1} x2={1000} y2={1} stroke="black" />
                       </svg>
                       </div>
                       <div class="experience-text">
                     <Scrollbar renderThumbVertical={props => <div {...props} className="scrollbar" />} style={{color: "black"}}>
                       
-                         <h2> what have i done? </h2>
+                         <h2> work &amp; community involvement </h2>
 
                          <div class="experience-description">
-                            <div style={{ lineHeight: "6mm"}}>
-        
-                        <p> <span style={{color: "rgb(101, 128, 219)", fontSize: "18px"}}> Hi, I'm Darien! </span> I'm what you may call a <span style={{fontWeight: "600"}}> peculiar </span> person. I'm always asking myself - 
-                "How does this work?", "How do I solve this problem?", "Why do I like how this looks?". 
-                At McGill University, I study the uses of computers and programming languages, while 
-                developing technical skills and a new perspective on problem solving. In the process of 
-                solving problems or the development of new ideas, I also take into consideration how <i>nice </i> 
-                something looks. Design for me is a way to bring my ideas to life in a creative, meaningful 
-                 way that resonates with people. </p>
-                </div>
+                    <center>  
+                         <div class="experience-block-1"> 
+                    <div class="exp-text">
+                        {displayBlock1 === false && (
+                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick1}/> )}
+                    {displayBlock1 === true && ( 
+                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick1}/> )}
+                       
+                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "550", padding: "0px"}}> SMB Legal </p>  
+                        <h3 > <i> Santa Monica, CA &bull;  June 2020 &mdash; August 2020 </i> </h3>
+                        <p style={{ paddingTop: "5px"}}>  Software Engineering Intern, Start-Up, Full-Stack Development  </p>
+                      
+                      {displayBlock1 === true && (  <p style={{lineHeight: "normal"}}> Through Open Water Accelerator, a new kind of start-up Accelerator, I was paired with a start-up called SMB Legal looking as a "builder", a Software
+                            Engineering Intern who could help build the business' website and software service from scratch. 
+                            I created the company's site smbusinesslegal.com using ReactJS, Node.js, PostgreSQL and AWS Services. Due to COVID-19, this internship was remote.
+                        </p>
+                        )}
+                                  
+                    </div>
+                   </div>
+                        </center>
+                        <br />
+                        <br />
+                        <center>  
+                         <div class="experience-block-2"> 
+                    <div class="exp-text">
+                        {displayBlock2 === false && (
+                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick2}/> )}
+                    {displayBlock2 === true && ( 
+                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick2}/> )}
+                       
+                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> School R &amp; D </p>  
+                        <h3 ><i> Montreal, QC &bull;  June 2020 &mdash; August 2020 </i> </h3>
+                        <p style={{ paddingTop: "5px"}}> UX/UI Researcher, Design, Functional Programming </p>
+                      
+                      {displayBlock2 === true && (  <p style={{lineHeight: "normal"}}> Hired by a McGill Alumni, I worked on UX/UI Design Research for an
+                      education platform start-up. In order to understand the other aspects of the project, I learned some functional programming in Idris and Elm. 
+                      Due to COVID-19, this research position was remote. 
+                        </p>
+                        )}
+                                  
+                    </div>
+                        </div>
+                        </center>
+
+                        <br />
+                        <br />
+                        <center>  
+                         <div class="experience-block-3"> 
+                    <div class="exp-text">
+                        {displayBlock3 === false && (
+                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick3}/> )}
+                    {displayBlock3 === true && ( 
+                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick3}/> )}
+                       
+                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> Deloitte LLP </p>  
+                        <h3><i>  Toronto, ON &bull; May 2019 &mdash; August 2019 </i> </h3>
+                        <p style={{ paddingTop: "5px"}}> Junior Tax Analyst, Assembly Team, Contractor </p>
+                      
+                      {displayBlock3 === true && (  <p style={{lineHeight: "normal"}}> I worked as a 12-week contractor at Deloitte's BAE location on the Tax Team's Assembly Team. 
+                      I used different kinds of tax software to assemble tax returns, and help Senior Managers lighten their work load by doing routine calls to 
+                      the CRA, IRS, RQ etc. This was an opportunity to work in a professional environment and be surrounded by entreneurial individuals. 
+                        </p>
+                        )}
+                                  
+                    </div>
+                        </div>
+                        </center>
+
+
+
+
+
+
+
+
+
+
+
+
                 <div style={{lineHeight: "6mm"}}> <p>
                I was born in New Jersey, USA and moved to Toronto, Ontario when I was 6. Now, I've found 
                 my way to Montr&eacute;al to study <i>Computer Science </i> at McGill University. What may be interesting 

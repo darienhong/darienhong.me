@@ -85,7 +85,7 @@ export default class AboutMe extends Component {
                             </div>
                             <div style={{width: "370px", lineHeight: "6mm"}}>
         
-                        <p> <span style={{color: "rgb(101, 128, 219)", fontSize: "18px"}}> Hi, I'm Darien! </span> I'm what you may call a <span style={{fontWeight: "600"}}> peculiar </span> person. I'm always asking myself - 
+                        <p> <span style={{color: "rgb(101, 128, 219)", fontSize: "18px", fontFamily: "Mirage Bold", fontWeight: "600"}}> Hi, I'm Darien! </span> I'm what you may call a <span style={{fontWeight: "600"}}> peculiar </span> person. I'm always asking myself - 
                 "How does this work?", "How do I solve this problem?", "Why do I like how this looks?". 
                 At McGill University, I study the uses of computers and programming languages, while 
                 developing technical skills and a new perspective on problem solving. In the process of 
