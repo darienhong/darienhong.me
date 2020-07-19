@@ -70,7 +70,7 @@ export default class AboutMe extends Component {
                      </svg>
                      </div>
                       <div style={{textAlign: "center"}}>
-                      <svg height={10} width={800}>
+                      <svg height={10} width={"100%"}>
                           <line class="svg-line" x1={1} x2={1000} y2={1} stroke="black" />
                       </svg>
                       </div>
@@ -83,7 +83,7 @@ export default class AboutMe extends Component {
                             <div>
                             <img src={Image} alt="pic of me" class="me-pic" width="350px"/>
                             </div>
-                            <div style={{width: "370px", lineHeight: "6mm"}}>
+                            <div style={{width: "470px", lineHeight: "6mm"}}>
         
                         <p> <span style={{color: "rgb(101, 128, 219)", fontSize: "18px", fontFamily: "Mirage Bold", fontWeight: "600"}}> Hi, I'm Darien! </span> I'm what you may call a <span style={{fontWeight: "600"}}> peculiar </span> person. I'm always asking myself - 
                 "How does this work?", "How do I solve this problem?", "Why do I like how this looks?". 
