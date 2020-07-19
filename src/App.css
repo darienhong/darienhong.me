@@ -228,7 +228,7 @@ nav a:hover::before {
   display: block; 
   border: 2px solid black; 
   border-radius: 20px;
-  box-shadow: 7px 7px;
+  box-shadow: 6px 6px;
   text-align: center;
   justify-content: center;
   background-color: rgb(247, 227, 162);
@@ -240,7 +240,7 @@ nav a:hover::before {
   display: block; 
   border: 2px solid black; 
   border-radius: 20px;
-  box-shadow: 7px 7px;
+  box-shadow: 6px 6px;
   text-align: center;
   justify-content: center;
   background-color: rgb(192, 211, 228);
@@ -253,7 +253,7 @@ nav a:hover::before {
   display: block; 
   border: 2px solid black; 
   border-radius: 20px;
-  box-shadow: 7px 7px;
+  box-shadow: 6px 6px;
   text-align: center;
   justify-content: center;
   background-color: rgb(255, 241, 225);
