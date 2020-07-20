@@ -243,7 +243,7 @@ nav a:hover::before {
   box-shadow: 6px 6px;
   text-align: center;
   justify-content: center;
-  background-color: rgb(192, 211, 228);
+  background-color: rgb(211, 222, 233);
 
 }
 
@@ -281,7 +281,7 @@ nav a:hover::before {
   padding-right: 40px;
 }
 
-.experience-block-1, .experience-block-2, .experience-block-3 { 
+.experience-block-1, .experience-block-2, .experience-block-3, .experience-block-4 { 
   width: 810px; 
   background-color: rgb(235, 212, 212);
 }

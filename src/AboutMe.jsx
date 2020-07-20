@@ -63,10 +63,10 @@ export default class AboutMe extends Component {
                          <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(241, 156, 129)" />
                      </svg>
                      <svg height="20" width="20">
-                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(192, 211, 228)" />
+                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(211, 222, 233)" />
                      </svg>
                      <svg height="20" width="20">
-                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(192, 211, 228)" />
+                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(211, 222, 233)" />
                      </svg>
                      </div>
                       <div style={{textAlign: "center"}}>

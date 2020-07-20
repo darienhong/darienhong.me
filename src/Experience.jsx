@@ -18,6 +18,7 @@ export default class Experience extends Component {
         displayBlock1: false, 
         displayBlock2: false,
         displayBlock3: false,
+        displayBlock4: false,
     }
 
 
@@ -51,6 +52,12 @@ export default class Experience extends Component {
         })
     }
 
+    onClick4 = () => {
+        this.setState({
+            displayBlock4: !this.state.displayBlock4,
+        })
+    }
+
 
     render() {
 
@@ -59,6 +66,7 @@ export default class Experience extends Component {
             displayBlock1,
             displayBlock2,
             displayBlock3,
+            displayBlock4,
         
         
         } = this.state;
@@ -92,10 +100,10 @@ export default class Experience extends Component {
                          <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(241, 156, 129)" />
                      </svg>
                      <svg height="20" width="20">
-                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(255, 212, 163)" />
+                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(255, 241, 225)" />
                      </svg>
                      <svg height="20" width="20">
-                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(255, 212, 163)" />
+                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(255, 241, 225)" />
                      </svg>
                      </div>
                       <div style={{textAlign: "center"}}>
@@ -177,6 +185,33 @@ export default class Experience extends Component {
                     </div>
                         </div>
                         </center>
+
+                        <br />
+                        <br />
+                        <center>  
+                         <div class="experience-block-4"> 
+                    <div class="exp-text">
+                        {displayBlock4 === false && (
+                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick4}/> )}
+                    {displayBlock4 === true && ( 
+                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick4}/> )}
+                       
+                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> Computer Science Undergraduate Society </p>  
+                        <h3><i>  McGill University &bull; Jan 2020 &mdash; May 2021 </i> </h3>
+                        <p style={{ paddingTop: "5px"}}> Vice-President Helpdesk, Computer Science Tutor/Mentor, TEAM Awardee </p>
+                      
+                      {displayBlock4 === true && (  <p style={{lineHeight: "normal"}}> CSUS is a student elected group tasked with improving student academics and life 
+                      in the computer science department. The <i> Helpdesk </i> is an initiative run by the society where we offer tutoring services everyday for any 
+                      computer science class offered at McGill at the undergraduate level. As the VP Helpdesk, I am in charge of recruiting, interviewing and 
+                      overseeing all 50 tutors that we hire and organize a tutoring schedule, as well as planning review sessions and specialized workshops for more complex CS topics. 
+                      Before being elected as the VP Helpdesk, I worked as a tutor for one semester and received the Tomlinson Engagement Award for Mentoring. 
+                        </p>
+                        )}
+                                  
+                    </div>
+                        </div>
+                        </center>
+
 
 
 
