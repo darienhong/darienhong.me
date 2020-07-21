@@ -228,7 +228,7 @@ nav a:hover::before {
   display: block; 
   border: 2px solid black; 
   border-radius: 20px;
-  box-shadow: 6px 6px;
+  box-shadow: 5px 5px;
   text-align: center;
   justify-content: center;
   background-color: rgb(248, 237, 198);
@@ -236,11 +236,11 @@ nav a:hover::before {
 
 .about { 
   width: 70%;
-  height: 70vh;
+  height: 75vh;
   display: block; 
   border: 2px solid black; 
   border-radius: 20px;
-  box-shadow: 6px 6px;
+  box-shadow: 5px 5px;
   text-align: center;
   justify-content: center;
   background-color: rgb(223, 230, 236);
@@ -249,11 +249,11 @@ nav a:hover::before {
 
 .experience { 
   width: 70%;
-  height: 70vh;
+  height: 75vh;
   display: block; 
   border: 2px solid black; 
   border-radius: 20px;
-  box-shadow: 6px 6px;
+  box-shadow: 5px 5px;
   text-align: center;
   justify-content: center;
   background-color: rgb(253, 245, 235);
@@ -262,7 +262,7 @@ nav a:hover::before {
 
 .experience-text { 
   width: 96%;
-  height: 63vh;
+  height: 68vh;
   justify-content: center;
   text-align: left;
   padding-left: 40px;
@@ -288,7 +288,7 @@ nav a:hover::before {
 
 .about-text {
   width: 96%;
-  height: 62vh;
+  height: 68vh;
   justify-content: center;
   text-align: left;
   padding-left: 40px;

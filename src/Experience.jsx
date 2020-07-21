@@ -86,9 +86,7 @@ export default class Experience extends Component {
                 <br />
                 <br />
                 <br />
-                <br />
-                <br />
-                <br />
+                < br/>
         
                
               <div class="experience">

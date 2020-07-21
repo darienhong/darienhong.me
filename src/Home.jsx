@@ -64,10 +64,10 @@ export default class Home extends Component {
                          <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(241, 156, 129)" />
                      </svg>
                      <svg height="20" width="20">
-                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(247, 227, 162)" />
+                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(248, 237, 198)" />
                      </svg>
                      <svg height="20" width="20">
-                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(247, 227, 162)" />
+                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(248, 237, 198)" />
                      </svg>
                      </div>
                       <div style={{textAlign: "center"}}>
