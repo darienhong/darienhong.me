@@ -52,8 +52,7 @@ export default class AboutMe extends Component {
                 <br />
                 <br />
                 <br />
-                <br />
-                <br />
+              
                
               <div class="about">
                   <div class="homepage-header">
@@ -122,7 +121,11 @@ export default class AboutMe extends Component {
               </div>
               </center>
             )}
-            
+              <div class="footer-block">
+            <footer > 
+                Developed and designed with &hearts; by Darien Hong &copy; 2020 
+            </footer>
+            </div> 
                 
 
             </div>

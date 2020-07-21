@@ -236,7 +236,7 @@ nav a:hover::before {
 
 .about { 
   width: 70%;
-  height: 600px;
+  height: 70vh;
   display: block; 
   border: 2px solid black; 
   border-radius: 20px;
@@ -249,7 +249,7 @@ nav a:hover::before {
 
 .experience { 
   width: 70%;
-  height: 600px;
+  height: 70vh;
   display: block; 
   border: 2px solid black; 
   border-radius: 20px;
@@ -262,7 +262,7 @@ nav a:hover::before {
 
 .experience-text { 
   width: 96%;
-  height: 545px;
+  height: 63vh;
   justify-content: center;
   text-align: left;
   padding-left: 40px;
@@ -288,7 +288,7 @@ nav a:hover::before {
 
 .about-text {
   width: 96%;
-  height: 545px;
+  height: 62vh;
   justify-content: center;
   text-align: left;
   padding-left: 40px;
@@ -380,6 +380,16 @@ nav a:hover::before {
 .dropdown:hover {
 
   color: rgb(101, 128, 219);
+}
+
+.footer-block { 
+  position: absolute;
+  right: 0; 
+  bottom: 0; 
+  font-family: 'Jost';
+  padding: 10px;
+  padding-right: 20px;
+  font-size: 12px;
 }
 
 

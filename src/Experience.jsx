@@ -89,8 +89,7 @@ export default class Experience extends Component {
                 <br />
                 <br />
                 <br />
-                <br />
-                <br />
+        
                
               <div class="experience">
                   <div class="homepage-header">
@@ -113,7 +112,6 @@ export default class Experience extends Component {
                       </div>
                       <div class="experience-text">
                     <Scrollbar renderThumbVertical={props => <div {...props} className="scrollbar" />} style={{color: "black"}}>
-                      
                          <h2> work &amp; community involvement </h2>
 
                          <div class="experience-description">
@@ -244,7 +242,11 @@ export default class Experience extends Component {
               </div>
               </center>
             )}
-            
+              <div class="footer-block">
+            <footer > 
+                Developed and designed with &hearts; by Darien Hong &copy; 2020 
+            </footer>
+            </div> 
                 
 
             </div>
