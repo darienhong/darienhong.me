@@ -15,7 +15,8 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "react-scrollbars-custom": "^4.0.25"
+    "react-scrollbars-custom": "^4.0.25",
+    "react-social-icons": "^4.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -7,6 +7,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
 import Footer from './footer.jsx';
+import { SocialIcon } from 'react-social-icons';
 
 export default class Home extends Component { 
 
@@ -83,14 +84,17 @@ export default class Home extends Component {
                           
                           <div class="contact">
                               <p> Drop me a hi </p>
-                              <div class="contact-button" style={{marginLeft: "15px"}}>
-                          <a href={"mailto: darienhong7@gmail.com"} ><EmailIcon className="icon" /></a>
+                              <div class="contact-button">
+                              <a href={"mailto: darienhong7@gmail.com"} ><SocialIcon className="icon" network="email" bgColor="rgb(82, 117, 163)" style={{width: 30, height: 30}} /></a>
+                      
+                          </div>
+                              <div class="contact-button" style={{marginLeft: "20px"}}>
+
+                                  <SocialIcon className="icon" url="https://github.com/darienhong" bgColor="rgb(82, 117, 163)" style={{width: 30, height: 30}} />
                           </div>
                               <div class="contact-button">
-                          <a href="https://github.com/darienhong" target="_blank" rel="noopener noreferrer" ><GitHubIcon className="icon" /></a>
-                          </div>
-                              <div class="contact-button">
-                          <a href="https://www.linkedin.com/in/darienhong/" target="_blank" rel="noopener noreferrer" ><LinkedInIcon className="icon" /></a>
+                              <SocialIcon className="icon" url="https://www.linkedin.com/in/darienhong/" bgColor="rgb(82, 117, 163)" style={{width: 30, height: 30}} />
+                     
                           </div>
 
 
