@@ -303,7 +303,7 @@ nav a:hover::before {
 }
 
 .svg-line { 
-  stroke-width: 3px;
+  stroke-width: 4px;
 }
 
 .buttons { 
@@ -322,7 +322,7 @@ nav a:hover::before {
 
 .contact-button { 
   margin-left: 20px;
-  padding-top: 10px
+  padding-top: 13px;
 }
 
 .icon {
@@ -336,7 +336,7 @@ nav a:hover::before {
 
 .exit-button:hover {
   opacity: 0.5;
-  color: rgb(82, 117, 163)
+
 }
 
 .exit-button {

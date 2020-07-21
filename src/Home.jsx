@@ -73,7 +73,7 @@ export default class Home extends Component {
                      </div>
                       <div style={{textAlign: "center"}}>
                       <svg height={10} width={"100%"}>
-                          <line class="svg-line" x1={1} x2={1000} y2={1} stroke="black" />
+                          <line class="svg-line" x1={0} x2={1000} y2={1} stroke="black" />
                       </svg>
                       </div>
                       
@@ -83,17 +83,17 @@ export default class Home extends Component {
                               Product Design and UX/UI Design. I'm a huge fan of people and learning how things work. </p>
                           
                           <div class="contact">
-                              <p style={{fontWeight: 600}}> Drop me a hi </p>
+                              <p style={{}}> Come say hi! </p>
                               <div class="contact-button">
-                              <a href={"mailto: darienhong7@gmail.com"} ><SocialIcon className="icon" network="email" bgColor="rgb(82, 117, 163)" style={{width: 30, height: 30}} /></a>
+                              <a href={"mailto: darienhong7@gmail.com"} ><SocialIcon className="icon" network="email" bgColor="rgb(82, 117, 163)" style={{width: 26, height: 26}} /></a>
                       
                           </div>
                               <div class="contact-button" style={{marginLeft: "20px"}}>
 
-                                  <SocialIcon className="icon" url="https://github.com/darienhong" bgColor="rgb(82, 117, 163)" style={{width: 30, height: 30}} />
+                                  <SocialIcon className="icon" url="https://github.com/darienhong" bgColor="rgb(82, 117, 163)" style={{width: 26, height: 26}} />
                           </div>
                               <div class="contact-button">
-                              <SocialIcon className="icon" url="https://www.linkedin.com/in/darienhong/" bgColor="rgb(82, 117, 163)" style={{width: 30, height: 30}} />
+                              <SocialIcon className="icon" url="https://www.linkedin.com/in/darienhong/" bgColor="rgb(82, 117, 163)" style={{width: 26, height: 26}} />
                      
                           </div>
 
