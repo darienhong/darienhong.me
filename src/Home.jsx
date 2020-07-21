@@ -83,7 +83,7 @@ export default class Home extends Component {
                               Product Design and UX/UI Design. I'm a huge fan of people and learning how things work. </p>
                           
                           <div class="contact">
-                              <p> Drop me a hi </p>
+                              <p style={{fontWeight: 600}}> Drop me a hi </p>
                               <div class="contact-button">
                               <a href={"mailto: darienhong7@gmail.com"} ><SocialIcon className="icon" network="email" bgColor="rgb(82, 117, 163)" style={{width: 30, height: 30}} /></a>
                       
