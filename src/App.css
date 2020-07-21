@@ -190,7 +190,7 @@ nav a {
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.2mm;
-  font-family: 'WorkSans';
+  font-family: 'Jost';
   color: rgb(0, 0, 0)
 }
 
@@ -224,7 +224,7 @@ nav a:hover::before {
 }
 
 .homepage { 
-  width: 600px;
+  width: 40%;
   display: block; 
   border: 2px solid black; 
   border-radius: 20px;
@@ -235,8 +235,8 @@ nav a:hover::before {
 }
 
 .about { 
-  width: 900px;
-  height: 550px;
+  width: 70%;
+  height: 600px;
   display: block; 
   border: 2px solid black; 
   border-radius: 20px;
@@ -248,8 +248,8 @@ nav a:hover::before {
 }
 
 .experience { 
-  width: 900px;
-  height: 550px;
+  width: 70%;
+  height: 600px;
   display: block; 
   border: 2px solid black; 
   border-radius: 20px;
@@ -261,8 +261,8 @@ nav a:hover::before {
 }
 
 .experience-text { 
-  width: 860px;
-  height: 480px;
+  width: 96%;
+  height: 545px;
   justify-content: center;
   text-align: left;
   padding-left: 40px;
@@ -282,13 +282,13 @@ nav a:hover::before {
 }
 
 .experience-block-1, .experience-block-2, .experience-block-3, .experience-block-4 { 
-  width: 810px; 
+  width: 94%; 
   background-color: rgb(235, 212, 212);
 }
 
 .about-text {
-  width: 860px;
-  height: 480px;
+  width: 96%;
+  height: 545px;
   justify-content: center;
   text-align: left;
   padding-left: 40px;
@@ -299,6 +299,7 @@ nav a:hover::before {
   text-align: left;
   padding-left: 40px;
   overflow-y: auto;
+  padding-right: 20px;
 }
 
 .svg-line { 
@@ -346,13 +347,13 @@ nav a:hover::before {
   background-image: url(./assets/whitepng.png);
   background-size: cover;
   height: 100vh; 
-  
+  width: 100%;
   background-repeat: repeat;
 }
 
 .appear-div { 
-  min-width: 1000px;
-  min-height: 900px;
+  height: 100vh;
+  width: 100%;
 }
 
 .scrollbar{ 
