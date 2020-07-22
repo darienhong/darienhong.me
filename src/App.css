@@ -71,8 +71,8 @@ h1 {
 
 h2 { 
   font-size: 40px;
-  font-family: 'Mirage Black';
-  font-weight: 800;
+  font-family: 'Display';
+  font-weight: 500;
   
 }
 
@@ -250,7 +250,7 @@ nav a:hover::before {
 
 .experience-text { 
   width: 96%;
-  height: 68vh;
+  height: 52vh;
   justify-content: center;
   text-align: left;
   padding-left: 40px;

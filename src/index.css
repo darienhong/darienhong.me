@@ -56,3 +56,8 @@ code {
   font-family: 'Bebas';
   src: local('Bebas'), url(./fonts/BebasNeue-Regular.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'Display';
+  src: local('Display'), url(./fonts/DMSerifDisplay-Regular.ttf) format('truetype');
+}
