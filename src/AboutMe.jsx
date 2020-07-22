@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './navbar.jsx';
 import Scrollbar from 'react-scrollbars-custom';
 import Image from './assets/me.png';
+import Image2 from './assets/me2.png';
 import {
     BrowserRouter as Router,
     Switch,
@@ -60,10 +61,10 @@ export default class AboutMe extends Component {
                          <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(241, 156, 129)" />
                      </svg>
                      <svg height="20" width="20">
-                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(211, 222, 233)" />
+                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(241, 238, 228)" />
                      </svg>
                      <svg height="20" width="20">
-                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(211, 222, 233)" />
+                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(241, 238, 228)" />
                      </svg>
                      </div>
                       <div style={{textAlign: "center"}}>
@@ -77,12 +78,17 @@ export default class AboutMe extends Component {
                          <h2> who am i? </h2>
 
                          <div class="about-me-description">
-                            <div>
-                            <img src={Image} alt="pic of me" class="me-pic" width="350px"/>
+                       
+                            <div style={{border: "4px solid rgb(82, 117, 163)", margin: "20px"}}>
+                            <img src={Image} alt="pic of me" class="me-pic" width="300px"/>
                             </div>
-                            <div style={{width: "470px", lineHeight: "6mm"}}>
-        
-                        <p> <span style={{color: "rgb(101, 128, 219)", fontSize: "18px", fontFamily: "Mirage Bold", fontWeight: "600"}}> Hi, I'm Darien! </span> I'm what you may call a <span style={{fontWeight: "600"}}> peculiar </span> person. I'm always asking myself - 
+   
+                            <div style={{border: "4px solid rgb(82, 117, 163)", margin: "20px"}}>
+                            <img src={Image2} alt="pic of me" class="me-pic" width="300px"/>
+                            </div>
+                        
+                            <div style={{ lineHeight: "6mm"}}>
+                        <p> <span style={{color: "rgb(82, 117, 163)", fontSize: "20px", fontFamily: "Mirage Black", fontWeight: "600"}}> Hi, I'm Darien! </span> I'm what you may call a <span style={{fontWeight: "600"}}> peculiar </span> person. I'm always asking myself - 
                 "How does this work?", "How do I solve this problem?", "Why do I like how this looks?". 
                 At McGill University, I study the uses of computers and programming languages, while 
                 developing technical skills and a new perspective on problem solving. In the process of 
@@ -91,7 +97,7 @@ export default class AboutMe extends Component {
                  way that resonates with people. </p>
                 </div>
                 <div style={{lineHeight: "6mm"}}> <p>
-               I was born in New Jersey, USA and moved to Toronto, Ontario when I was 6. Now, I've found 
+               I was born in New Jersey, USA and moved to Toronto, Canada when I was 6. Now, I've found 
                 my way to Montr&eacute;al to study <i>Computer Science </i> at McGill University. What may be interesting 
                 to you is how I originally applied to study Psychology, with no background in science at all, but found 
                 myself gravitating towards computers, math and weird code. This competitive undergraduate 
@@ -99,6 +105,8 @@ export default class AboutMe extends Component {
                 as well as opened doors for me to explore my creative side and has let me consider the endless 
                 career possibilities, as technology is constantly evolving in almost every industry.
                           </p>
+                         </div> 
+                         <div style={{lineHeight: "6mm"}}> 
                           <p> 
                           When I'm not at the library hunched over my laptop or pulling all-nighters at <span style={{textDecoration: "underline"}}><Link to="/Projects"> Hackathons</Link></span>, you
                 can find me exploring the city, taking a nice walk to the park or cooking up a storm in the 
