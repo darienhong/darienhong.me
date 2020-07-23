@@ -19,6 +19,8 @@ export default class Experience extends Component {
         displayBlock2: false,
         displayBlock3: false,
         displayBlock4: false,
+        displayBlock5: false,
+        displayBlock6: false,
     }
 
 
@@ -58,6 +60,19 @@ export default class Experience extends Component {
         })
     }
 
+    onClick5 = () => {
+        this.setState({
+            displayBlock5: !this.state.displayBlock5,
+        })
+    }
+
+    onClick6 = () => {
+        this.setState({
+            displayBlock6: !this.state.displayBlock6,
+        })
+    }
+
+
 
     render() {
 
@@ -67,6 +82,8 @@ export default class Experience extends Component {
             displayBlock2,
             displayBlock3,
             displayBlock4,
+            displayBlock5,
+            displayBlock6,
         
         
         } = this.state;
@@ -97,10 +114,10 @@ export default class Experience extends Component {
                          <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(241, 156, 129)" />
                      </svg>
                      <svg height="20" width="20">
-                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(255, 241, 225)" />
+                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(241, 238, 228)" />
                      </svg>
                      <svg height="20" width="20">
-                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(255, 241, 225)" />
+                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(241, 238, 228)" />
                      </svg>
                      </div>
                       <div style={{textAlign: "center"}}>
@@ -161,30 +178,6 @@ export default class Experience extends Component {
                         <br />
                         <br />
                         <center>  
-                         <div class="experience-block-3"> 
-                    <div class="exp-text">
-                        {displayBlock3 === false && (
-                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick3}/> )}
-                    {displayBlock3 === true && ( 
-                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick3}/> )}
-                       
-                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> Deloitte LLP </p>  
-                        <h3><i>  Toronto, ON &bull; May 2019 &mdash; August 2019 </i> </h3>
-                        <p style={{ paddingTop: "5px"}}> Junior Tax Analyst, Assembly Team, Contractor </p>
-                      
-                      {displayBlock3 === true && (  <p style={{lineHeight: "normal"}}> I worked as a 12-week contractor at Deloitte's BAE location on the Tax Team's Assembly Team. 
-                      I used different kinds of tax software to assemble tax returns, and help Senior Managers lighten their work load by doing routine calls to 
-                      the CRA, IRS, RQ etc. This was an opportunity to work in a professional environment and be surrounded by entreneurial individuals. 
-                        </p>
-                        )}
-                                  
-                    </div>
-                        </div>
-                        </center>
-
-                        <br />
-                        <br />
-                        <center>  
                          <div class="experience-block-4"> 
                     <div class="exp-text">
                         {displayBlock4 === false && (
@@ -201,6 +194,81 @@ export default class Experience extends Component {
                       computer science class offered at McGill at the undergraduate level. As the VP Helpdesk, I am in charge of recruiting, interviewing and 
                       overseeing all 50 tutors that we hire and organize a tutoring schedule, as well as planning review sessions and specialized workshops for more complex CS topics. 
                       Before being elected as the VP Helpdesk, I worked as a tutor for one semester and received the Tomlinson Engagement Award for Mentoring. 
+                        </p>
+                        )}
+                                  
+                    </div>
+                        </div>
+                        </center>
+                        <br />
+                        <br />
+
+                        <center>  
+                         <div class="experience-block-5"> 
+                    <div class="exp-text">
+                        {displayBlock5 === false && (
+                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick5}/> )}
+                    {displayBlock5 === true && ( 
+                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick5}/> )}
+                       
+                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> Design Collective </p>  
+                        <h3><i>  McGill University &bull; Jan 2020 &mdash; May 2021 </i> </h3>
+                        <p style={{ paddingTop: "5px"}}> Vice-President Events, Front-End Developer </p>
+                      
+                      {displayBlock5 === true && (  <p style={{lineHeight: "normal"}}> McGill's club Design Collective is a student-run design community that aims to 
+                      nurture creativity and design thinking. We host interactive workshops and career-related events with guest speakers from different industries that 
+                      incorporate design. As the VP Events, I was in charge of planning our weekly events (UX/UI Design Workshop, Prototyping Workshop, Shopify Guest Panel etc.) 
+                      and help advertise the events throughout the school. I also created the club's official website using Webflow and Figma. 
+                        </p>
+                        )}
+                                  
+                    </div>
+                        </div>
+                        </center>
+                        <br />
+                        <br />
+                      
+                        <center>  
+                         <div class="experience-block-3"> 
+                    <div class="exp-text">
+                        {displayBlock3 === false && (
+                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick3}/> )}
+                    {displayBlock3 === true && ( 
+                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick3}/> )}
+                       
+                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> Deloitte LLP </p>  
+                        <h3><i>  Toronto, ON &bull; May 2019 &mdash; August 2019 </i> </h3>
+                        <p style={{ paddingTop: "5px"}}> Junior Tax Analyst, Assembly Team, Contractor </p>
+                      
+                      {displayBlock3 === true && (  <p style={{lineHeight: "normal"}}> I worked as a 12-week contractor at Deloitte's BAE location on the Tax Team's Assembly Team. 
+                      I used different kinds of tax software to assemble tax returns, and help Senior Managers lighten their work load by doing routine calls to 
+                      the CRA, IRS, RQ etc. This was an opportunity to work in a professional environment and be surrounded by entrepreneurial individuals. 
+                        </p>
+                        )}
+                                  
+                    </div>
+                        </div>
+                        </center>
+                        <br />
+                        <br />
+
+                        <center>  
+                         <div class="experience-block-6"> 
+                    <div class="exp-text">
+                        {displayBlock6 === false && (
+                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick6}/> )}
+                    {displayBlock6 === true && ( 
+                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick6}/> )}
+                       
+                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> Enrolment Services </p>  
+                        <h3><i>  McGill University &bull; Sept 2018 &mdash; Nov 2019 </i> </h3>
+                        <p style={{ paddingTop: "5px"}}> Open House Representative </p>
+                      
+                      {displayBlock6 === true && (  <p style={{lineHeight: "normal"}}> McGill hosts their annual Open House every year in October. 
+                      I worked at the Open House event in October of 2018 during my first year, and 
+                      October 2019 in my second year. I was in charge of setting up the event with the organizers, as well as hand out pamphlets and maps, 
+                      lead parents and students to the right buildings, and answering all their questions at an information table. Through this experience, I was able to 
+                      talk to prospective students about my experience at McGill and give them insight in potential program choices and ways to get involved. 
                         </p>
                         )}
                                   
