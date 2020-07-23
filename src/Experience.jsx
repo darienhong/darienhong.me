@@ -109,9 +109,9 @@ export default class Experience extends Component {
                       </svg>
                       </div>
                       <div class="experience-text">
-                      <h2> work &amp; community involvement </h2>
+                      
                     <Scrollbar renderThumbVertical={props => <div {...props} className="scrollbar" />} style={{color: "black"}}>
-
+                    <h2> work &amp; community involvement </h2>
                          <div class="experience-description">
                     <center>  
                          <div class="experience-block-1"> 
