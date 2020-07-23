@@ -155,7 +155,7 @@ export default class Experience extends Component {
                       
                       {displayBlock1 === true && (  <p style={{lineHeight: "normal"}}> Through Open Water Accelerator, a new kind of start-up Accelerator, I was paired with a start-up called SMB Legal looking as a "builder", a Software
                             Engineering Intern who could help build the business' website and software service from scratch. 
-                            I created the company's site smbusinesslegal.com using ReactJS, Node.js, PostgreSQL and AWS Services. Due to COVID-19, this internship was remote.
+                            I created the company's site/software service smbusinesslegal.com using ReactJS, Node.js, PostgreSQL and AWS Services. Due to COVID-19, this internship was remote.
                         </p>
                         )}
                                   
@@ -224,7 +224,7 @@ export default class Experience extends Component {
                        
                         <p class="title-text"> Design Collective </p>  
                         <h3><i>  McGill University &bull; Jan 2020 &mdash; May 2021 </i> </h3>
-                        <p style={{ paddingTop: "5px"}}> Vice-President Events, Front-End Developer </p>
+                        <p style={{ paddingTop: "5px"}}> Front-End Developer, Vice-President Events </p>
                       
                       {displayBlock5 === true && (  <p style={{lineHeight: "normal"}}> McGill's club Design Collective is a student-run design community that aims to 
                       nurture creativity and design thinking. We host interactive workshops and career-related events with guest speakers from different industries that 
