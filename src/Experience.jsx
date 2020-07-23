@@ -21,6 +21,7 @@ export default class Experience extends Component {
         displayBlock4: false,
         displayBlock5: false,
         displayBlock6: false,
+        displayBlock7: false,
     }
 
 
@@ -72,6 +73,12 @@ export default class Experience extends Component {
         })
     }
 
+    onClick7 = () => {
+        this.setState({
+            displayBlock7: !this.state.displayBlock7,
+        })
+    }
+
 
 
     render() {
@@ -84,6 +91,7 @@ export default class Experience extends Component {
             displayBlock4,
             displayBlock5,
             displayBlock6,
+            displayBlock7,
         
         
         } = this.state;
@@ -185,7 +193,7 @@ export default class Experience extends Component {
                     {displayBlock4 === true && ( 
                     <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick4}/> )}
                        
-                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> Computer Science Undergraduate Society </p>  
+                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> Computer Science Undergraduate Society (CSUS) </p>  
                         <h3><i>  McGill University &bull; Jan 2020 &mdash; May 2021 </i> </h3>
                         <p style={{ paddingTop: "5px"}}> Vice-President Helpdesk, Computer Science Tutor/Mentor, TEAM Awardee </p>
                       
@@ -275,27 +283,32 @@ export default class Experience extends Component {
                     </div>
                         </div>
                         </center>
+                        <br />
+                        <br />
 
-
-
-
-                <div style={{lineHeight: "6mm"}}> <p>
-               I was born in New Jersey, USA and moved to Toronto, Ontario when I was 6. Now, I've found 
-                my way to Montr&eacute;al to study <i>Computer Science </i> at McGill University. What may be interesting 
-                to you is how I originally applied to study Psychology, with no background in science at all, but found 
-                myself gravitating towards computers, math and weird code. This competitive undergraduate 
-                program has armed me with a pocket of very practical analytical and technical hard skills, 
-                as well as opened doors for me to explore my creative side and has let me consider the endless 
-                career possibilities, as technology is constantly evolving in almost every industry.
-                          </p>
-                          <p> 
-                          When I'm not at the library hunched over my laptop or pulling all-nighters at <span style={{textDecoration: "underline"}}><Link to="/Projects"> Hackathons</Link></span>, you
-                can find me exploring the city, taking a nice walk to the park or cooking up a storm in the 
-                kitchen! I consider myself a curious person, and I'm always looking for new things to explore,
-                new foods to try, new things to learn, and new ways to keep myself entertained. 
-                          </p>
-                          </div>
-                        
+                        <center>  
+                         <div class="experience-block-7"> 
+                    <div class="exp-text">
+                        {displayBlock7 === false && (
+                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick7}/> )}
+                    {displayBlock7 === true && ( 
+                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick7}/> )}
+                       
+                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> Elections Student Society of McGill University (SSMU) </p>  
+                        <h3><i>  McGill University &bull; Sept 2018 &mdash; May 2019 </i> </h3>
+                        <p style={{ paddingTop: "5px"}}> Elections Coordinator </p>
+                      
+                      {displayBlock7 === true && (  <p style={{lineHeight: "normal"}}> Elections SSMU is a politically autonomous body 
+                      responsible for running elections within the Student's Society of McGill University. As an elections coordinator, I was in charge of promoting the voting periods for student government 
+                      elections as well as promote participation for our Fall and Winter Referendums. 
+                        </p>
+                        )}
+                                  
+                    </div>
+                        </div>
+                        </center>
+                        <br />
+                        <br />
                           
                           </div>
                          
@@ -308,6 +321,8 @@ export default class Experience extends Component {
               </div>
               </center>
             )}
+
+            
               <div class="footer-block">
             <footer > 
                 Developed and designed with &hearts; by Darien Hong &copy; 2020 

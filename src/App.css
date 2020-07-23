@@ -105,7 +105,7 @@ p {
 
 a { 
   color: black; 
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 
@@ -270,7 +270,7 @@ nav a:hover::before {
 }
 
 .experience-block-1, .experience-block-2, .experience-block-3, .experience-block-4,
-.experience-block-5, .experience-block-6 { 
+.experience-block-5, .experience-block-6, .experience-block-7 { 
   width: 94%; 
   /* background-color: rgb(235, 212, 212); */
   background-color: rgb(190, 201, 216); 

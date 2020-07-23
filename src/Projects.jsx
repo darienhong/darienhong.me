@@ -97,15 +97,15 @@ export default class Projects extends Component {
                          <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(241, 156, 129)" />
                      </svg>
                      <svg height="20" width="20">
-                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(255, 241, 225)" />
+                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(241, 238, 228)" />
                      </svg>
                      <svg height="20" width="20">
-                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(255, 241, 225)" />
+                         <circle cx="10" cy="10" r="6" stroke="black" stroke-width="2" fill="rgb(241, 238, 228)" />
                      </svg>
                      </div>
                       <div style={{textAlign: "center"}}>
                       <svg height={10} width={"100%"}>
-                          <line class="svg-line" x1={1} x2={2000} y2={1} stroke="black" />
+                          <line class="svg-line" x1={0} x2={2000} y2={1} stroke="black" />
                       </svg>
                       </div>
                       <div class="experience-text">

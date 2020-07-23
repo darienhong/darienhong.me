@@ -79,16 +79,16 @@ export default class AboutMe extends Component {
 
                          <div class="about-me-description">
                        
-                            <div style={{border: "4px solid rgb(82, 117, 163)", margin: "20px"}}>
+                            <div style={{border: "4px solid rgb(190, 201, 216)", margin: "20px"}}>
                             <img src={Image} alt="pic of me" class="me-pic" width="300px"/>
                             </div>
    
-                            <div style={{border: "4px solid rgb(82, 117, 163)", margin: "20px"}}>
+                            <div style={{border: "4px solid rgb(190, 201, 216)", margin: "20px"}}>
                             <img src={Image2} alt="pic of me" class="me-pic" width="300px"/>
                             </div>
                         
                             <div style={{ lineHeight: "6mm"}}>
-                        <p> <span style={{color: "rgb(82, 117, 163)", fontSize: "20px", fontFamily: "Mirage Black", fontWeight: "600"}}> Hi, I'm Darien! </span> I'm what you may call a <span style={{fontWeight: "600"}}> peculiar </span> person. I'm always asking myself - 
+                        <p> <span style={{color: "rgb(82, 117, 163)", fontSize: "20px", fontFamily: "Display", fontWeight: "600"}}> Hi, I'm Darien! </span> I'm what you may call a <span style={{fontWeight: "600"}}> peculiar </span> person. I'm always asking myself - 
                 "How does this work?", "How do I solve this problem?", "Why do I like how this looks?". 
                 At McGill University, I study the uses of computers and programming languages, while 
                 developing technical skills and a new perspective on problem solving. In the process of 
@@ -98,7 +98,9 @@ export default class AboutMe extends Component {
                 </div>
                 <div style={{lineHeight: "6mm"}}> <p>
                I was born in New Jersey, USA and moved to Toronto, Canada when I was 6. Now, I've found 
-                my way to Montr&eacute;al to study <i>Computer Science </i> at McGill University. What may be interesting 
+                my way to Montr&eacute;al to study <a href="https://www.mcgill.ca/study/2020-2021/faculties/science/undergraduate/programs/bachelor-science-bsc-major-computer-science"
+                target="_blank" rel="noopener noreferrer"> Computer Science
+                </a> at McGill University. What may be interesting 
                 to you is how I originally applied to study Psychology, with no background in science at all, but found 
                 myself gravitating towards computers, math and weird code. This competitive undergraduate 
                 program has armed me with a pocket of very practical analytical and technical hard skills, 
