@@ -11,6 +11,9 @@ import {
   } from "react-router-dom";
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
+import Footer from './footer.jsx';
+import AddIcon from '@material-ui/icons/Add';
+import RemoveIcon from '@material-ui/icons/Remove';
 
 export default class Projects extends Component { 
     state = {
@@ -19,6 +22,9 @@ export default class Projects extends Component {
         displayBlock2: false,
         displayBlock3: false,
         displayBlock4: false,
+        displayBlock5: false,
+        displayBlock6: false,
+        displayBlock7: false,
     }
 
 
@@ -58,6 +64,25 @@ export default class Projects extends Component {
         })
     }
 
+    onClick5 = () => {
+        this.setState({
+            displayBlock5: !this.state.displayBlock5,
+        })
+    }
+
+    onClick6 = () => {
+        this.setState({
+            displayBlock6: !this.state.displayBlock6,
+        })
+    }
+
+    onClick7 = () => {
+        this.setState({
+            displayBlock7: !this.state.displayBlock7,
+        })
+    }
+
+
 
     render() {
 
@@ -67,6 +92,9 @@ export default class Projects extends Component {
             displayBlock2,
             displayBlock3,
             displayBlock4,
+            displayBlock5,
+            displayBlock6,
+            displayBlock7,
         
         
         } = this.state;
@@ -109,19 +137,19 @@ export default class Projects extends Component {
                       </svg>
                       </div>
                       <div class="experience-text">
+                      
                     <Scrollbar renderThumbVertical={props => <div {...props} className="scrollbar" />} style={{color: "black"}}>
-                         <h2> my projects </h2>
-
+                    <h2> my projects </h2>
                          <div class="experience-description">
                     <center>  
                          <div class="experience-block-1"> 
                     <div class="exp-text">
                         {displayBlock1 === false && (
-                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick1}/> )}
+                    <AddIcon className="dropdown" style={{ fontSize: "18px"}} onClick={this.onClick1}/> )}
                     {displayBlock1 === true && ( 
-                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick1}/> )}
+                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick1}/> )}
                        
-                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "550", padding: "0px"}}> SMB Legal </p>  
+                        <p class="title-text"> SMB Legal </p>  
                         <h3 > <i> Santa Monica, CA &bull;  June 2020 &mdash; August 2020 </i> </h3>
                         <p style={{ paddingTop: "5px"}}>  Software Engineering Intern, Start-Up, Full-Stack Development  </p>
                       
@@ -140,11 +168,11 @@ export default class Projects extends Component {
                          <div class="experience-block-2"> 
                     <div class="exp-text">
                         {displayBlock2 === false && (
-                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick2}/> )}
+                    <AddIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick2}/> )}
                     {displayBlock2 === true && ( 
-                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick2}/> )}
+                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}} onClick={this.onClick2}/> )}
                        
-                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> School R &amp; D </p>  
+                        <p class="title-text"> School R &amp; D </p>  
                         <h3 ><i> Montreal, QC &bull;  June 2020 &mdash; August 2020 </i> </h3>
                         <p style={{ paddingTop: "5px"}}> UX/UI Researcher, Design, Functional Programming </p>
                       
@@ -161,38 +189,14 @@ export default class Projects extends Component {
                         <br />
                         <br />
                         <center>  
-                         <div class="experience-block-3"> 
-                    <div class="exp-text">
-                        {displayBlock3 === false && (
-                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick3}/> )}
-                    {displayBlock3 === true && ( 
-                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick3}/> )}
-                       
-                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> Deloitte LLP </p>  
-                        <h3><i>  Toronto, ON &bull; May 2019 &mdash; August 2019 </i> </h3>
-                        <p style={{ paddingTop: "5px"}}> Junior Tax Analyst, Assembly Team, Contractor </p>
-                      
-                      {displayBlock3 === true && (  <p style={{lineHeight: "normal"}}> I worked as a 12-week contractor at Deloitte's BAE location on the Tax Team's Assembly Team. 
-                      I used different kinds of tax software to assemble tax returns, and help Senior Managers lighten their work load by doing routine calls to 
-                      the CRA, IRS, RQ etc. This was an opportunity to work in a professional environment and be surrounded by entreneurial individuals. 
-                        </p>
-                        )}
-                                  
-                    </div>
-                        </div>
-                        </center>
-
-                        <br />
-                        <br />
-                        <center>  
                          <div class="experience-block-4"> 
                     <div class="exp-text">
                         {displayBlock4 === false && (
-                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick4}/> )}
+                    <AddIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick4}/> )}
                     {displayBlock4 === true && ( 
-                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick4}/> )}
+                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}} onClick={this.onClick4}/> )}
                        
-                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> Computer Science Undergraduate Society </p>  
+                        <p class="title-text"> Computer Science Undergraduate Society (CSUS) </p>  
                         <h3><i>  McGill University &bull; Jan 2020 &mdash; May 2021 </i> </h3>
                         <p style={{ paddingTop: "5px"}}> Vice-President Helpdesk, Computer Science Tutor/Mentor, TEAM Awardee </p>
                       
@@ -207,27 +211,107 @@ export default class Projects extends Component {
                     </div>
                         </div>
                         </center>
+                        <br />
+                        <br />
 
+                        <center>  
+                         <div class="experience-block-5"> 
+                    <div class="exp-text">
+                        {displayBlock5 === false && (
+                    <AddIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick5}/> )}
+                    {displayBlock5 === true && ( 
+                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick5}/> )}
+                       
+                        <p class="title-text"> Design Collective </p>  
+                        <h3><i>  McGill University &bull; Jan 2020 &mdash; May 2021 </i> </h3>
+                        <p style={{ paddingTop: "5px"}}> Vice-President Events, Front-End Developer </p>
+                      
+                      {displayBlock5 === true && (  <p style={{lineHeight: "normal"}}> McGill's club Design Collective is a student-run design community that aims to 
+                      nurture creativity and design thinking. We host interactive workshops and career-related events with guest speakers from different industries that 
+                      incorporate design. As the VP Events, I was in charge of planning our weekly events (UX/UI Design Workshop, Prototyping Workshop, Shopify Guest Panel etc.) 
+                      and help advertise the events throughout the school. I also created the club's official website using Webflow and Figma. 
+                        </p>
+                        )}
+                                  
+                    </div>
+                        </div>
+                        </center>
+                        <br />
+                        <br />
+                      
+                        <center>  
+                         <div class="experience-block-3"> 
+                    <div class="exp-text">
+                        {displayBlock3 === false && (
+                    <AddIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick3}/> )}
+                    {displayBlock3 === true && ( 
+                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick3}/> )}
+                       
+                        <p class="title-text"> Deloitte LLP </p>  
+                        <h3><i>  Toronto, ON &bull; May 2019 &mdash; August 2019 </i> </h3>
+                        <p style={{ paddingTop: "5px"}}> Junior Tax Analyst, Assembly Team, Contractor </p>
+                      
+                      {displayBlock3 === true && (  <p style={{lineHeight: "normal"}}> I worked as a 12-week contractor at Deloitte's BAE location on the Tax Team's Assembly Team. 
+                      I used different kinds of tax software to assemble tax returns, and help Senior Managers lighten their work load by doing routine calls to 
+                      the CRA, IRS, RQ etc. This was an opportunity to work in a professional environment and be surrounded by entrepreneurial individuals. 
+                        </p>
+                        )}
+                                  
+                    </div>
+                        </div>
+                        </center>
+                        <br />
+                        <br />
 
+                        <center>  
+                         <div class="experience-block-6"> 
+                    <div class="exp-text">
+                        {displayBlock6 === false && (
+                    <AddIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick6}/> )}
+                    {displayBlock6 === true && ( 
+                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick6}/> )}
+                       
+                        <p class="title-text"> Enrolment Services </p>  
+                        <h3><i>  McGill University &bull; Sept 2018 &mdash; Nov 2019 </i> </h3>
+                        <p style={{ paddingTop: "5px"}}> Open House Representative </p>
+                      
+                      {displayBlock6 === true && (  <p style={{lineHeight: "normal"}}> McGill hosts their annual Open House every year in October. 
+                      I worked at the Open House event in October of 2018 during my first year, and 
+                      October 2019 in my second year. I was in charge of setting up the event with the organizers, as well as hand out pamphlets and maps, 
+                      lead parents and students to the right buildings, and answering all their questions at an information table. Through this experience, I was able to 
+                      talk to prospective students about my experience at McGill and give them insight in potential program choices and ways to get involved. 
+                        </p>
+                        )}
+                                  
+                    </div>
+                        </div>
+                        </center>
+                        <br />
+                        <br />
 
-
-                <div style={{lineHeight: "6mm"}}> <p>
-               I was born in New Jersey, USA and moved to Toronto, Ontario when I was 6. Now, I've found 
-                my way to Montr&eacute;al to study <i>Computer Science </i> at McGill University. What may be interesting 
-                to you is how I originally applied to study Psychology, with no background in science at all, but found 
-                myself gravitating towards computers, math and weird code. This competitive undergraduate 
-                program has armed me with a pocket of very practical analytical and technical hard skills, 
-                as well as opened doors for me to explore my creative side and has let me consider the endless 
-                career possibilities, as technology is constantly evolving in almost every industry.
-                          </p>
-                          <p> 
-                          When I'm not at the library hunched over my laptop or pulling all-nighters at <span style={{textDecoration: "underline"}}><Link to="/Projects"> Hackathons</Link></span>, you
-                can find me exploring the city, taking a nice walk to the park or cooking up a storm in the 
-                kitchen! I consider myself a curious person, and I'm always looking for new things to explore,
-                new foods to try, new things to learn, and new ways to keep myself entertained. 
-                          </p>
-                          </div>
-                        
+                        <center>  
+                         <div class="experience-block-7"> 
+                    <div class="exp-text">
+                        {displayBlock7 === false && (
+                    <AddIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick7}/> )}
+                    {displayBlock7 === true && ( 
+                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick7}/> )}
+                       
+                        <p class="title-text"> Elections Student Society of McGill University (SSMU) </p>  
+                        <h3><i>  McGill University &bull; Sept 2018 &mdash; May 2019 </i> </h3>
+                        <p style={{ paddingTop: "5px"}}> Elections Coordinator </p>
+                      
+                      {displayBlock7 === true && (  <p style={{lineHeight: "normal"}}> Elections SSMU is a politically autonomous body 
+                      responsible for running elections within the Student's Society of McGill University. As an elections coordinator, I was in charge of promoting the voting periods for student government 
+                      elections as well as promote participation for our Fall and Winter Referendums. 
+                        </p>
+                        )}
+                                  
+                    </div>
+                        </div>
+                        </center>
+                        <br />
+                    
                           
                           </div>
                          
@@ -240,12 +324,9 @@ export default class Projects extends Component {
               </div>
               </center>
             )}
-              <div class="footer-block">
-            <footer > 
-                Developed and designed with &hearts; by Darien Hong &copy; 2020 
-            </footer>
-            </div> 
-                
+
+            
+            <Footer />
 
             </div>
         );

@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './navbar.jsx';
 import Scrollbar from 'react-scrollbars-custom';
 import Image from './assets/me.png';
+import Footer from './footer.jsx';
 import {
     BrowserRouter as Router,
     Switch,
@@ -11,6 +12,8 @@ import {
   } from "react-router-dom";
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
+import AddIcon from '@material-ui/icons/Add';
+import RemoveIcon from '@material-ui/icons/Remove';
 
 export default class Experience extends Component { 
     state = {
@@ -142,11 +145,11 @@ export default class Experience extends Component {
                          <div class="experience-block-1"> 
                     <div class="exp-text">
                         {displayBlock1 === false && (
-                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick1}/> )}
+                    <AddIcon className="dropdown" style={{ fontSize: "18px"}} onClick={this.onClick1}/> )}
                     {displayBlock1 === true && ( 
-                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick1}/> )}
+                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick1}/> )}
                        
-                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "550", padding: "0px"}}> SMB Legal </p>  
+                        <p class="title-text"> SMB Legal </p>  
                         <h3 > <i> Santa Monica, CA &bull;  June 2020 &mdash; August 2020 </i> </h3>
                         <p style={{ paddingTop: "5px"}}>  Software Engineering Intern, Start-Up, Full-Stack Development  </p>
                       
@@ -165,11 +168,11 @@ export default class Experience extends Component {
                          <div class="experience-block-2"> 
                     <div class="exp-text">
                         {displayBlock2 === false && (
-                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick2}/> )}
+                    <AddIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick2}/> )}
                     {displayBlock2 === true && ( 
-                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick2}/> )}
+                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}} onClick={this.onClick2}/> )}
                        
-                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> School R &amp; D </p>  
+                        <p class="title-text"> School R &amp; D </p>  
                         <h3 ><i> Montreal, QC &bull;  June 2020 &mdash; August 2020 </i> </h3>
                         <p style={{ paddingTop: "5px"}}> UX/UI Researcher, Design, Functional Programming </p>
                       
@@ -189,11 +192,11 @@ export default class Experience extends Component {
                          <div class="experience-block-4"> 
                     <div class="exp-text">
                         {displayBlock4 === false && (
-                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick4}/> )}
+                    <AddIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick4}/> )}
                     {displayBlock4 === true && ( 
-                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick4}/> )}
+                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}} onClick={this.onClick4}/> )}
                        
-                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> Computer Science Undergraduate Society (CSUS) </p>  
+                        <p class="title-text"> Computer Science Undergraduate Society (CSUS) </p>  
                         <h3><i>  McGill University &bull; Jan 2020 &mdash; May 2021 </i> </h3>
                         <p style={{ paddingTop: "5px"}}> Vice-President Helpdesk, Computer Science Tutor/Mentor, TEAM Awardee </p>
                       
@@ -215,11 +218,11 @@ export default class Experience extends Component {
                          <div class="experience-block-5"> 
                     <div class="exp-text">
                         {displayBlock5 === false && (
-                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick5}/> )}
+                    <AddIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick5}/> )}
                     {displayBlock5 === true && ( 
-                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick5}/> )}
+                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick5}/> )}
                        
-                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> Design Collective </p>  
+                        <p class="title-text"> Design Collective </p>  
                         <h3><i>  McGill University &bull; Jan 2020 &mdash; May 2021 </i> </h3>
                         <p style={{ paddingTop: "5px"}}> Vice-President Events, Front-End Developer </p>
                       
@@ -240,11 +243,11 @@ export default class Experience extends Component {
                          <div class="experience-block-3"> 
                     <div class="exp-text">
                         {displayBlock3 === false && (
-                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick3}/> )}
+                    <AddIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick3}/> )}
                     {displayBlock3 === true && ( 
-                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick3}/> )}
+                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick3}/> )}
                        
-                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> Deloitte LLP </p>  
+                        <p class="title-text"> Deloitte LLP </p>  
                         <h3><i>  Toronto, ON &bull; May 2019 &mdash; August 2019 </i> </h3>
                         <p style={{ paddingTop: "5px"}}> Junior Tax Analyst, Assembly Team, Contractor </p>
                       
@@ -264,11 +267,11 @@ export default class Experience extends Component {
                          <div class="experience-block-6"> 
                     <div class="exp-text">
                         {displayBlock6 === false && (
-                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick6}/> )}
+                    <AddIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick6}/> )}
                     {displayBlock6 === true && ( 
-                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick6}/> )}
+                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick6}/> )}
                        
-                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> Enrolment Services </p>  
+                        <p class="title-text"> Enrolment Services </p>  
                         <h3><i>  McGill University &bull; Sept 2018 &mdash; Nov 2019 </i> </h3>
                         <p style={{ paddingTop: "5px"}}> Open House Representative </p>
                       
@@ -290,11 +293,11 @@ export default class Experience extends Component {
                          <div class="experience-block-7"> 
                     <div class="exp-text">
                         {displayBlock7 === false && (
-                    <ArrowDropDownIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick7}/> )}
+                    <AddIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick7}/> )}
                     {displayBlock7 === true && ( 
-                    <ArrowDropUpIcon className="dropdown" style={{float: "right", paddingTop: "15px", paddingRight: "10px"}} onClick={this.onClick7}/> )}
+                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick7}/> )}
                        
-                        <p style={{fontFamily: "Jost", fontSize: "30px", fontWeight: "400", padding: "0px"}}> Elections Student Society of McGill University (SSMU) </p>  
+                        <p class="title-text"> Elections Student Society of McGill University (SSMU) </p>  
                         <h3><i>  McGill University &bull; Sept 2018 &mdash; May 2019 </i> </h3>
                         <p style={{ paddingTop: "5px"}}> Elections Coordinator </p>
                       
@@ -308,7 +311,7 @@ export default class Experience extends Component {
                         </div>
                         </center>
                         <br />
-                        <br />
+                      
                           
                           </div>
                          
@@ -323,12 +326,7 @@ export default class Experience extends Component {
             )}
 
             
-              <div class="footer-block">
-            <footer > 
-                Developed and designed with &hearts; by Darien Hong &copy; 2020 
-            </footer>
-            </div> 
-                
+            <Footer />
 
             </div>
         );

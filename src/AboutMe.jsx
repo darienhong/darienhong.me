@@ -4,6 +4,7 @@ import Navbar from './navbar.jsx';
 import Scrollbar from 'react-scrollbars-custom';
 import Image from './assets/me.png';
 import Image2 from './assets/me2.png';
+import Footer from './footer.jsx';
 import {
     BrowserRouter as Router,
     Switch,
@@ -129,11 +130,7 @@ export default class AboutMe extends Component {
               </div>
               </center>
             )}
-              <div class="footer-block">
-            <footer > 
-                Developed and designed with &hearts; by Darien Hong &copy; 2020 
-            </footer>
-            </div> 
+             <Footer />
                 
 
             </div>

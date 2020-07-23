@@ -14,14 +14,11 @@ export default class Footer extends Component {
     render() {
         return(
 
-            <div class="footer">
-                <footer class="footer-block"> 
-                
-                <p> Designed and developed with <FavoriteBorderIcon /> &copy; Darien Hong 2020 </p>
-                
-                </footer>
-
-            </div>
+            <div class="footer-block">
+            <footer > 
+                Developed and designed with &hearts; by Darien Hong &copy; 2020 
+            </footer>
+            </div> 
 
         );
     }
