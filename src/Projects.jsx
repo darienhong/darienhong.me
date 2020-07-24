@@ -17,6 +17,7 @@ import RemoveIcon from '@material-ui/icons/Remove';
 import Image1 from './assets/homescreen.png';
 import Image2 from './assets/course.png';
 import Image3 from './assets/onboarding.png';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 export default class Projects extends Component { 
     state = {
@@ -206,7 +207,8 @@ export default class Projects extends Component {
                      <br />
                      <div style={{float: "right"}}> 
                         <a href="https://github.com/conniaren/SecuriCard-BOLT-Fintech-Pitch" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
-                         <div class="link">  Github </div></a>
+                        <div class="link"> <GitHubIcon style={{fontSize: "16px"}}/> &nbsp; Github </div></a>
+                        
                      </div>
                      <br />
                      <br />
@@ -245,6 +247,8 @@ export default class Projects extends Component {
                      <div> 
                      <a href="https://devpost.com/software/digi-fridge" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
                          <div class="link">  Devpost </div></a>
+                         <a href="https://github.com/darienhong/McWics-2020" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
+                        <div class="link"> <GitHubIcon style={{fontSize: "16px"}}/> &nbsp; Github </div></a>
                      </div>
                      <br />
                      <br />

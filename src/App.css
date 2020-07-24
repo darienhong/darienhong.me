@@ -410,15 +410,19 @@ nav a:hover::before {
 }
 
 .link { 
-  width: 60px; 
   text-align: center;
   padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-right: 10px;
   color: white;
   background-color: rgb(228, 200, 200); 
   border-radius: 30px;
   font-family: 'Jost';
   float: right;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
 }
 
 .link:hover { 
