@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/darien/static/css/main.ffe1599b.chunk.css",
-    "main.js": "/darien/static/js/main.902fd18e.chunk.js",
-    "main.js.map": "/darien/static/js/main.902fd18e.chunk.js.map",
-    "runtime-main.js": "/darien/static/js/runtime-main.9dadd6b7.js",
-    "runtime-main.js.map": "/darien/static/js/runtime-main.9dadd6b7.js.map",
-    "static/js/2.6e3cb954.chunk.js": "/darien/static/js/2.6e3cb954.chunk.js",
-    "static/js/2.6e3cb954.chunk.js.map": "/darien/static/js/2.6e3cb954.chunk.js.map",
-    "index.html": "/darien/index.html",
-    "precache-manifest.0e3e04f62807b0aaf66d39446a768edf.js": "/darien/precache-manifest.0e3e04f62807b0aaf66d39446a768edf.js",
-    "service-worker.js": "/darien/service-worker.js",
-    "static/css/main.ffe1599b.chunk.css.map": "/darien/static/css/main.ffe1599b.chunk.css.map",
-    "static/js/2.6e3cb954.chunk.js.LICENSE.txt": "/darien/static/js/2.6e3cb954.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/darien/static/media/WorkSans-Regular.6f916ce8.ttf",
-    "static/media/course.png": "/darien/static/media/course.fe2b4e03.png",
-    "static/media/homescreen.png": "/darien/static/media/homescreen.fe3b5427.png",
-    "static/media/me.png": "/darien/static/media/me.19690da7.png",
-    "static/media/me2.png": "/darien/static/media/me2.9a143830.png",
-    "static/media/onboarding.png": "/darien/static/media/onboarding.d67c6e31.png",
-    "static/media/App.css": "/darien/static/media/whitepng.6f105807.png"
+    "main.css": "/static/css/main.8bea804c.chunk.css",
+    "main.js": "/static/js/main.fba27b65.chunk.js",
+    "main.js.map": "/static/js/main.fba27b65.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f8fddbf5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f8fddbf5.js.map",
+    "static/js/2.e4e20695.chunk.js": "/static/js/2.e4e20695.chunk.js",
+    "static/js/2.e4e20695.chunk.js.map": "/static/js/2.e4e20695.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b99083eb92befd674c8df1901c02e9d4.js": "/precache-manifest.b99083eb92befd674c8df1901c02e9d4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.8bea804c.chunk.css.map": "/static/css/main.8bea804c.chunk.css.map",
+    "static/js/2.e4e20695.chunk.js.LICENSE.txt": "/static/js/2.e4e20695.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/WorkSans-Regular.6f916ce8.ttf",
+    "static/media/course.png": "/static/media/course.fe2b4e03.png",
+    "static/media/homescreen.png": "/static/media/homescreen.fe3b5427.png",
+    "static/media/me.png": "/static/media/me.19690da7.png",
+    "static/media/me2.png": "/static/media/me2.9a143830.png",
+    "static/media/onboarding.png": "/static/media/onboarding.d67c6e31.png",
+    "static/media/App.css": "/static/media/whitepng.6f105807.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9dadd6b7.js",
-    "static/js/2.6e3cb954.chunk.js",
-    "static/css/main.ffe1599b.chunk.css",
-    "static/js/main.902fd18e.chunk.js"
+    "static/js/runtime-main.f8fddbf5.js",
+    "static/js/2.e4e20695.chunk.js",
+    "static/css/main.8bea804c.chunk.css",
+    "static/js/main.fba27b65.chunk.js"
   ]
 }
