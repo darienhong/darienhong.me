@@ -14,6 +14,9 @@ import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
 import Footer from './footer.jsx';
 import AddIcon from '@material-ui/icons/Add';
 import RemoveIcon from '@material-ui/icons/Remove';
+import Image1 from './assets/homescreen.png';
+import Image2 from './assets/course.png';
+import Image3 from './assets/onboarding.png';
 
 export default class Projects extends Component { 
     state = {
@@ -149,15 +152,33 @@ export default class Projects extends Component {
                     {displayBlock1 === true && ( 
                     <RemoveIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick1}/> )}
                        
-                        <p class="title-text"> SMB Legal </p>  
-                        <h3 > <i> Santa Monica, CA &bull;  June 2020 &mdash; August 2020 </i> </h3>
-                        <p style={{ paddingTop: "5px"}}>  Software Engineering Intern, Start-Up, Full-Stack Development  </p>
+                        <p class="title-text"> Spark </p>  
+                        <h3 > <i> Summer 2020 </i> </h3>
+                        <p style={{ paddingTop: "5px"}}>  UX/UI Design, Figma, Wireframes, Prototyping  </p>
                       
-                      {displayBlock1 === true && (  <p style={{lineHeight: "normal"}}> Through Open Water Accelerator, a new kind of start-up Accelerator, I was paired with a start-up called SMB Legal looking as a "builder", a Software
-                            Engineering Intern who could help build the business' website and software service from scratch. 
-                            I created the company's site smbusinesslegal.com using ReactJS, Node.js, PostgreSQL and AWS Services. Due to COVID-19, this internship was remote.
-                        </p>
+                      {displayBlock1 === true && ( <div>  <p style={{lineHeight: "normal"}}> I was asked by a group of students at McGill who were working on an educational
+                      live-streaming platform as a summer project to join the team as a UX/UI Designer. I created wireframes for the the app's design using Figma. 
+                      
+                      <br />
+                      <div> 
+                     <a href="https://www.figma.com/file/QZRfGJOtM8f5PnDgITUMUL/spark-ui?node-id=0%3A1" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
+                         <div class="link">  Figma </div></a>
+                     </div>
+                     </p>
+                
+                    <div class="wireframes">
+                    <img src={Image3} class="wireframe" />
+                     <img src={Image1} class="wireframe" />
+                     <img src={Image2} class="wireframe" />
+
+                     <br />
+                     <br />
+                     
+                     </div>
+                            </div> 
+                           
                         )}
+                        <br />
                                   
                     </div>
                    </div>
@@ -172,14 +193,27 @@ export default class Projects extends Component {
                     {displayBlock2 === true && ( 
                     <RemoveIcon className="dropdown" style={{ fontSize: "18px"}} onClick={this.onClick2}/> )}
                        
-                        <p class="title-text"> School R &amp; D </p>  
-                        <h3 ><i> Montreal, QC &bull;  June 2020 &mdash; August 2020 </i> </h3>
-                        <p style={{ paddingTop: "5px"}}> UX/UI Researcher, Design, Functional Programming </p>
+                        <p class="title-text"> Securicard </p>  
+                        <h3 ><i> BOLT Fintech Case Comp/Hackathon &bull;  November 2019 </i> </h3>
+                        <p style={{ paddingTop: "5px"}}> Swift, XCode, Front-End, UI Demo </p>
                       
-                      {displayBlock2 === true && (  <p style={{lineHeight: "normal"}}> Hired by a McGill Alumni, I worked on UX/UI Design Research for an
-                      education platform start-up. In order to understand the other aspects of the project, I learned some functional programming in Idris and Elm. 
-                      Due to COVID-19, this research position was remote. 
+                      {displayBlock2 === true && ( <div>  <p style={{lineHeight: "normal"}}> McGill's club BOLT held their annual Case Competition/Hackathon in November of 2019. My team
+                     and I participated in this week-long intensive competition filled with workshops, guest speakers 
+                     and a final pitch day at the Microsoft Office in Montreal. We came up with this new credit monitoring
+                     solution for small businesses - a digital business card distributor software as a service for business 
+                     executives/administrators to implement as a way of budgeting, and maintaining employee credibility. My team
+                     and I won second place for our pitch and idea. I used Swift and Xcode to create a UI Demo. 
+                     <br />
+                     <div style={{float: "right"}}> 
+                        <a href="https://github.com/conniaren/SecuriCard-BOLT-Fintech-Pitch" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
+                         <div class="link">  Github </div></a>
+                     </div>
+                     <br />
+                     <br />
                         </p>
+                      
+
+                        </div>
                         )}
                                   
                     </div>
@@ -196,15 +230,24 @@ export default class Projects extends Component {
                     {displayBlock4 === true && ( 
                     <RemoveIcon className="dropdown" style={{ fontSize: "18px"}} onClick={this.onClick4}/> )}
                        
-                        <p class="title-text"> Computer Science Undergraduate Society (CSUS) </p>  
-                        <h3><i>  McGill University &bull; Jan 2020 &mdash; May 2021 </i> </h3>
-                        <p style={{ paddingTop: "5px"}}> Vice-President Helpdesk, Computer Science Tutor/Mentor, TEAM Awardee </p>
+                        <p class="title-text"> Digi-Fridge </p>  
+                        <h3><i>  McWics 2020 &bull; Jan 2020 </i> </h3>
+                        <p style={{ paddingTop: "5px"}}> React-Native, JavaScript, Sustainability Hack </p>
                       
-                      {displayBlock4 === true && (  <p style={{lineHeight: "normal"}}> CSUS is a student elected group tasked with improving student academics and life 
-                      in the computer science department. The <i> Helpdesk </i> is an initiative run by the society where we offer tutoring services everyday for any 
-                      computer science class offered at McGill at the undergraduate level. As the VP Helpdesk, I am in charge of recruiting, interviewing and 
-                      overseeing all 50 tutors that we hire and organize a tutoring schedule, as well as planning review sessions and specialized workshops for more complex CS topics. 
-                      Before being elected as the VP Helpdesk, I worked as a tutor for one semester and received the Tomlinson Engagement Award for Mentoring. 
+                      {displayBlock4 === true && (  <p style={{lineHeight: "normal"}}> McGill's Women in Computer Science (McWICS) society hosted their annual hackathon in January of 2020.
+                     My team and I decided that we wanted
+                     to try creating something for the Sustainability Hack category. We came up with "DigiFridge", a digital fridge app
+                     for people to keep track of what they currently have in their fridge, reminding them of upcoming expiration dates
+                     and a way to help people avoid buying things they already have and may have forgotten about. The motive behind this 
+                     idea was to reduce food waste, help users budget and be an organization tool as well. During this hackathon, we learned
+                     how to use React-Native and JS to create a demo for the app. 
+                     <br />
+                     <div> 
+                     <a href="https://devpost.com/software/digi-fridge" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
+                         <div class="link">  Devpost </div></a>
+                     </div>
+                     <br />
+                     <br />
                         </p>
                         )}
                                   
@@ -222,14 +265,25 @@ export default class Projects extends Component {
                     {displayBlock5 === true && ( 
                     <RemoveIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick5}/> )}
                        
-                        <p class="title-text"> Design Collective </p>  
-                        <h3><i>  McGill University &bull; Jan 2020 &mdash; May 2021 </i> </h3>
-                        <p style={{ paddingTop: "5px"}}> Vice-President Events, Front-End Developer </p>
+                        <p class="title-text"> Play, Learn, Donate </p>  
+                        <h3><i>  YHACK 2019 &mdash; Yale University &bull; October 2019 </i> </h3>
+                        <p style={{ paddingTop: "5px"}}> Swift, Xcode, iOS Mobile Development </p>
                       
-                      {displayBlock5 === true && (  <p style={{lineHeight: "normal"}}> McGill's club Design Collective is a student-run design community that aims to 
-                      nurture creativity and design thinking. We host interactive workshops and career-related events with guest speakers from different industries that 
-                      incorporate design. As the VP Events, I was in charge of planning our weekly events (UX/UI Design Workshop, Prototyping Workshop, Shopify Guest Panel etc.) 
-                      and help advertise the events throughout the school. I also created the club's official website using Webflow and Figma. 
+                      {displayBlock5 === true && (  <p style={{lineHeight: "normal"}}> I participated in my first Hackathon in October of 2019, which was Yale's Annual
+                Hackathon, YHACK 2019. I formed a team with some other first-timers that I met on 
+                the bus to Conneticut, and as overwhelming as the weekend was, I believe that it was 
+                a great experience and the perfect opportunity to network, participate in workshops and 
+                learn something new. My team and I did not end up submitting our project on time, but instead 
+                we took the time to learn a new language and talk to sponsors. Our idea was a mobile app for social good
+                - The idea was an app with a series of games all related to different charities. Whenever you level up in a game, 
+                sponsors with donate to the charity of choice. I took the weekend as an opportunity to learn Swift and a little more about iOS Mobile Development.  
+                <br />
+                <div> 
+                     <a href="https://devpost.com/software/foals" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
+                         <div class="link">  Devpost </div></a>
+                     </div>
+                     <br />
+                     <br />
                         </p>
                         )}
                                   

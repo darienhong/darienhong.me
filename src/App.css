@@ -397,4 +397,33 @@ nav a:hover::before {
   font-weight: 550; 
 }
 
+.wireframe { 
+  padding: 20px; 
+  width: 200px; 
+
+}
+
+.wireframes { 
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link { 
+  width: 60px; 
+  text-align: center;
+  padding: 10px;
+  margin-right: 10px;
+  color: white;
+  background-color: rgb(228, 200, 200); 
+  border-radius: 30px;
+  font-family: 'Jost';
+  float: right;
+}
+
+.link:hover { 
+  color: white;
+  background-color: rgb(228, 210, 210); 
+}
+
 
