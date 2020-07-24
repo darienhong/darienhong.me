@@ -262,7 +262,9 @@ nav a:hover::before {
   padding-top: 1px;
   padding-bottom: 5px;
   padding-right: 10px;
-  line-height: 0.7mm;
+  line-height: 60%;
+  
+ 
 }
 
 .experience-description { 
@@ -395,6 +397,7 @@ nav a:hover::before {
 .title-text { 
   font-size: 30px; 
   font-weight: 550; 
+  display: block;
 }
 
 .wireframe { 

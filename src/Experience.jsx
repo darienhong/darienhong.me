@@ -196,7 +196,7 @@ export default class Experience extends Component {
                     {displayBlock4 === true && ( 
                     <RemoveIcon className="dropdown" style={{ fontSize: "18px"}} onClick={this.onClick4}/> )}
                        
-                        <p class="title-text"> Computer Science Undergraduate Society (CSUS) </p>  
+                        <p class="title-text"> Computer Science Undergraduate Society (CSUS)  </p>  
                         <h3><i>  McGill University &bull; Jan 2020 &mdash; May 2021 </i> </h3>
                         <p style={{ paddingTop: "5px"}}> Vice-President Helpdesk, Computer Science Tutor/Mentor, TEAM Awardee </p>
                       
