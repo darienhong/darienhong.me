@@ -165,17 +165,10 @@ export default class Projects extends Component {
                      <a href="https://www.figma.com/file/QZRfGJOtM8f5PnDgITUMUL/spark-ui?node-id=0%3A1" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
                          <div class="link">  Figma </div></a>
                      </div>
-                     </p>
-                
-                    <div class="wireframes">
-                    <img src={Image3} class="wireframe" />
-                     <img src={Image1} class="wireframe" />
-                     <img src={Image2} class="wireframe" />
+                     <br />
+                     <br />
 
-                     <br />
-                     <br />
-                     
-                     </div>
+                     </p>
                             </div> 
                            
                         )}
@@ -183,6 +176,31 @@ export default class Projects extends Component {
                                   
                     </div>
                    </div>
+                        </center>
+                        <br />
+                        <br />
+                      
+                        <center>  
+                         <div class="experience-block-3"> 
+                    <div class="exp-text">
+                        {displayBlock3 === false && (
+                    <AddIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick3}/> )}
+                    {displayBlock3 === true && ( 
+                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick3}/> )}
+                       
+                        <p class="title-text"> darienhong.me </p>  
+                        <h3><i>  Summer 2020 </i> </h3>
+                        <p style={{ paddingTop: "5px"}}> ReactJS, JSX, HTML, CSS, Front-End Development </p>
+                      
+                      {displayBlock3 === true && (  <p style={{lineHeight: "normal"}}>  As a personal project Summer 2020, I built my own personal website (what you're looking at now) 
+                     to act as an online resume and portfolio. I took this as an opportunity to improve my HTML/CSS and JavaScript. I am constantly looking for ways to improve 
+                     the site and make it as me as possible. 
+                     
+                        </p>
+                        )}
+                                  
+                    </div>
+                        </div>
                         </center>
                         <br />
                         <br />
@@ -294,80 +312,8 @@ export default class Projects extends Component {
                     </div>
                         </div>
                         </center>
-                        <br />
-                        <br />
-                      
-                        <center>  
-                         <div class="experience-block-3"> 
-                    <div class="exp-text">
-                        {displayBlock3 === false && (
-                    <AddIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick3}/> )}
-                    {displayBlock3 === true && ( 
-                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick3}/> )}
-                       
-                        <p class="title-text"> Deloitte LLP </p>  
-                        <h3><i>  Toronto, ON &bull; May 2019 &mdash; August 2019 </i> </h3>
-                        <p style={{ paddingTop: "5px"}}> Junior Tax Analyst, Assembly Team, Contractor </p>
-                      
-                      {displayBlock3 === true && (  <p style={{lineHeight: "normal"}}> I worked as a 12-week contractor at Deloitte's BAE location on the Tax Team's Assembly Team. 
-                      I used different kinds of tax software to assemble tax returns, and help Senior Managers lighten their work load by doing routine calls to 
-                      the CRA, IRS, RQ etc. This was an opportunity to work in a professional environment and be surrounded by entrepreneurial individuals. 
-                        </p>
-                        )}
-                                  
-                    </div>
-                        </div>
-                        </center>
-                        <br />
-                        <br />
 
-                        <center>  
-                         <div class="experience-block-6"> 
-                    <div class="exp-text">
-                        {displayBlock6 === false && (
-                    <AddIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick6}/> )}
-                    {displayBlock6 === true && ( 
-                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick6}/> )}
                        
-                        <p class="title-text"> Enrolment Services </p>  
-                        <h3><i>  McGill University &bull; Sept 2018 &mdash; Nov 2019 </i> </h3>
-                        <p style={{ paddingTop: "5px"}}> Open House Representative </p>
-                      
-                      {displayBlock6 === true && (  <p style={{lineHeight: "normal"}}> McGill hosts their annual Open House every year in October. 
-                      I worked at the Open House event in October of 2018 during my first year, and 
-                      October 2019 in my second year. I was in charge of setting up the event with the organizers, as well as hand out pamphlets and maps, 
-                      lead parents and students to the right buildings, and answering all their questions at an information table. Through this experience, I was able to 
-                      talk to prospective students about my experience at McGill and give them insight in potential program choices and ways to get involved. 
-                        </p>
-                        )}
-                                  
-                    </div>
-                        </div>
-                        </center>
-                        <br />
-                        <br />
-
-                        <center>  
-                         <div class="experience-block-7"> 
-                    <div class="exp-text">
-                        {displayBlock7 === false && (
-                    <AddIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick7}/> )}
-                    {displayBlock7 === true && ( 
-                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick7}/> )}
-                       
-                        <p class="title-text"> Elections Student Society of McGill University (SSMU) </p>  
-                        <h3><i>  McGill University &bull; Sept 2018 &mdash; May 2019 </i> </h3>
-                        <p style={{ paddingTop: "5px"}}> Elections Coordinator </p>
-                      
-                      {displayBlock7 === true && (  <p style={{lineHeight: "normal"}}> Elections SSMU is a politically autonomous body 
-                      responsible for running elections within the Student's Society of McGill University. As an elections coordinator, I was in charge of promoting the voting periods for student government 
-                      elections as well as promote participation for our Fall and Winter Referendums. 
-                        </p>
-                        )}
-                                  
-                    </div>
-                        </div>
-                        </center>
                         <br />
                     
                           
