@@ -74,17 +74,17 @@ export default class AboutMe extends Component {
                       </svg>
                       </div>
                       <div class="about-text">
-                    <Scrollbar renderThumbVertical={props => <div {...props} className="scrollbar" />} style={{color: "black"}}>
+                 {/*  <Scrollbar renderThumbVertical={props => <div {...props} className="scrollbar" />} style={{color: "black"}}> */}
                       
                          <h2> who am i? </h2>
 
                          <div class="about-me-description">
                        
-                            <div style={{border: "4px solid rgb(190, 201, 216)", margin: "20px"}}>
+                            <div class="border-image" style={{border: "4px solid rgb(190, 201, 216)", margin: "20px"}}>
                             <img src={Image} alt="pic of me" class="me-pic" width="300px"/>
                             </div>
    
-                            <div style={{border: "4px solid rgb(190, 201, 216)", margin: "20px"}}>
+                            <div class="border-image" style={{border: "4px solid rgb(190, 201, 216)", margin: "20px"}}>
                             <img src={Image2} alt="pic of me" class="me-pic" width="300px"/>
                             </div>
                         
@@ -122,7 +122,7 @@ export default class AboutMe extends Component {
                           </div>
                          
                         <br />
-                        </Scrollbar >
+                    {/*  </Scrollbar > */}
 
                       </div>
                     

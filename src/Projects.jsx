@@ -142,7 +142,7 @@ export default class Projects extends Component {
                       </div>
                       <div class="experience-text">
                       
-                    <Scrollbar renderThumbVertical={props => <div {...props} className="scrollbar" />} style={{color: "black"}}>
+                {/*   <Scrollbar renderThumbVertical={props => <div {...props} className="scrollbar" />} style={{color: "black"}}> */}
                     <h2> my projects </h2>
                          <div class="experience-description">
                     <center>  
@@ -161,7 +161,7 @@ export default class Projects extends Component {
                       live-streaming platform as a summer project to join the team as a UX/UI Designer. I created wireframes for the the app's design using Figma. 
                       
                       <br />
-                      <div> 
+                      <div class="project-links"> 
                      <a href="https://www.figma.com/file/QZRfGJOtM8f5PnDgITUMUL/spark-ui?node-id=0%3A1" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
                          <div class="link">  Figma </div></a>
                      </div>
@@ -223,7 +223,7 @@ export default class Projects extends Component {
                      executives/administrators to implement as a way of budgeting, and maintaining employee credibility. My team
                      and I won second place for our pitch and idea. I used Swift and Xcode to create a UI Demo. 
                      <br />
-                     <div style={{float: "right"}}> 
+                     <div class="project-links"> 
                         <a href="https://github.com/conniaren/SecuriCard-BOLT-Fintech-Pitch" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
                         <div class="link"> <GitHubIcon style={{fontSize: "16px"}}/> &nbsp; Github </div></a>
                         
@@ -262,7 +262,7 @@ export default class Projects extends Component {
                      idea was to reduce food waste, help users budget and be an organization tool as well. During this hackathon, we learned
                      how to use React-Native and JS to create a demo for the app. 
                      <br />
-                     <div> 
+                     <div class="project-links"> 
                      <a href="https://devpost.com/software/digi-fridge" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
                          <div class="link">  Devpost </div></a>
                          <a href="https://github.com/darienhong/McWics-2020" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
@@ -300,7 +300,7 @@ export default class Projects extends Component {
                 - The idea was an app with a series of games all related to different charities. Whenever you level up in a game, 
                 sponsors with donate to the charity of choice. I took the weekend as an opportunity to learn Swift and a little more about iOS Mobile Development.  
                 <br />
-                <div> 
+                <div class="project-links"> 
                      <a href="https://devpost.com/software/foals" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
                          <div class="link">  Devpost </div></a>
                      </div>
@@ -320,7 +320,7 @@ export default class Projects extends Component {
                           </div>
                          
                         <br />
-                        </Scrollbar >
+                   {/*   </Scrollbar > */}
 
                       </div>
                     

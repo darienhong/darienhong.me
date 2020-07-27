@@ -13,6 +13,79 @@
   }
 }
 
+@media only screen and (max-device-width: 640px){
+  .full-page { 
+    width: 100vw; 
+    height: calc(100vh - 90px);
+  }
+  .homepage, .about, .experience {
+    width: 90% !important; 
+
+  }
+  .nav-bar-container { 
+    width: 100vw; 
+    justify-content: center;
+  }
+
+  nav li { 
+    margin-left: 20px !important;
+  }
+
+  .logo { 
+    width: 30px !important;
+    margin-left: 40px !important;
+    padding-top: 20px !important;
+  }
+
+  nav a { 
+    font-size: 11px !important;
+  }
+  .about-text, .experience-text { 
+    height: 65vh !important;
+  }
+  .me-pic { 
+    display: none;
+  }
+  .border-image { 
+    display: none;
+  }
+  .exp-text { 
+    line-height: normal !important;
+  }
+
+  .experience-block-1, .experience-block-2, .experience-block-3, .experience-block-4,
+  .experience-block-5, .experience-block-6, .experience-block-7 {
+  width: 100% !important;
+  }
+
+  .footer-block { 
+    width: 100%; 
+    text-align: center !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media only screen and (min-device-width: 640px) and (max-device-width: 800px){
+  .homepage { 
+    width: 80% !important;
+  }
+  .logo { 
+    width: 40px !important;
+    padding-top: 15px !important;
+  }
+  .about, .experience { 
+    width: 90% !important;
+  }
+
+  .me-pic { 
+    width: 200px;
+  }
+  .exp-text { 
+    line-height: 60% !important;
+  }
+
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -38,13 +111,8 @@
 }
 
 body {
-  font-family: 'Work Sans';
-  color: rgb(0, 0, 0);
-  font-size: 14px;
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  margin: 0;
+ /*  background-image: url(./assets/whitepng.png); */
+  font-family: 'Jost';
   
 }
 
@@ -108,8 +176,6 @@ a {
   text-decoration: underline;
 }
 
-
-
 a:hover {
    color: rgb(82, 117, 163);
 }
@@ -167,7 +233,6 @@ nav li {
   display: inline-block;
   margin-left: 70px;
   padding-top: 23px;
-
   position: relative;
 }
 
@@ -212,8 +277,8 @@ nav a:hover::before {
 }
 
 .homepage { 
-  width: 40%;
   display: block; 
+  width: 40%;
   border: 2px solid black; 
   border-radius: 20px;
   box-shadow: 5px 5px;
@@ -249,21 +314,22 @@ nav a:hover::before {
 }
 
 .experience-text { 
-  width: 96%;
-  height: 68vh;
+ /* width: 95.5%; */
+  height: 66vh;
   justify-content: center;
   text-align: left;
   padding-left: 40px;
+  overflow-y: scroll;
 }
 
 .exp-text { 
   text-align: left;
   margin-left: 20px;
-  padding-top: 1px;
+  padding-top: 0.1px;
   padding-bottom: 5px;
   padding-right: 10px;
   line-height: 60%;
-  
+
  
 }
 
@@ -280,11 +346,12 @@ nav a:hover::before {
 }
 
 .about-text {
-  width: 96%;
-  height: 68vh;
+/*  width: 96%; */
+  height: 65vh;
   justify-content: center;
   text-align: left;
   padding-left: 40px;
+  overflow-y: scroll;
 }
 
 .homepage-text {
@@ -338,7 +405,7 @@ nav a:hover::before {
 
 
 .full-page {
-  background-image: url(./assets/whitepng.png);
+  background-image: url(./assets/whitepng.png); 
   background-size: cover;
   height: 100vh; 
   width: 100%;
@@ -348,11 +415,6 @@ nav a:hover::before {
 .appear-div { 
   height: 100vh;
   width: 100%;
-}
-
-.scrollbar { 
-  background-color: white;
- 
 }
 
 .me-pic {
@@ -398,6 +460,7 @@ nav a:hover::before {
   font-size: 30px; 
   font-weight: 550; 
   display: block;
+  line-height: 80%;
 }
 
 .wireframe { 
@@ -433,4 +496,24 @@ nav a:hover::before {
   background-color: rgb(228, 210, 210); 
 }
 
+.body::-webkit-scrollbar { 
+  display: none;
+}
 
+::-webkit-scrollbar { 
+  width: 9px; 
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer; 
+  border-radius: 15px; 
+  background: rgb(228, 210, 210); 
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.project-links { 
+  margin-top: 15px;
+}

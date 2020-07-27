@@ -138,7 +138,7 @@ export default class Experience extends Component {
                       </div>
                       <div class="experience-text">
                       
-                    <Scrollbar renderThumbVertical={props => <div {...props} className="scrollbar" />} style={{color: "black"}}>
+                 {/*  <Scrollbar renderThumbVertical={props => <div {...props} className="scrollbar" />} style={{color: "black"}}> */}
                     <h2> work &amp; community involvement </h2>
                          <div class="experience-description">
                     <center>  
@@ -316,12 +316,14 @@ export default class Experience extends Component {
                           </div>
                          
                         <br />
-                        </Scrollbar >
+                    </div>   
+                    
+                {/*     </Scrollbar > */}
 
                       </div>
                     
                   </div>
-              </div>
+          
               </center>
             )}
 
