@@ -20,7 +20,10 @@
   }
   .homepage, .about, .experience {
     width: 90% !important; 
-
+  }
+  
+  .about, .experience { 
+    height: 70vh !important;
   }
   .nav-bar-container { 
     width: 100vw; 
@@ -28,7 +31,7 @@
   }
 
   nav li { 
-    margin-left: 20px !important;
+    margin-left: 15px !important;
   }
 
   .logo { 
@@ -41,7 +44,7 @@
     font-size: 11px !important;
   }
   .about-text, .experience-text { 
-    height: 65vh !important;
+    height: 62vh !important;
   }
   .me-pic { 
     display: none;
@@ -207,8 +210,7 @@ header::after {
 .nav-bar-container {
   width: 90%;
   margin: 0 auto;
-  position: fixed;
-  z-index: 5;
+  position: absolute;
 }
 
 
@@ -244,7 +246,6 @@ nav a {
   font-weight: bold;
   letter-spacing: 0.2mm;
   font-family: 'Jost';
-  color: rgb(0, 0, 0)
 }
 
 nav a:hover {
@@ -347,7 +348,7 @@ nav a:hover::before {
 
 .about-text {
 /*  width: 96%; */
-  height: 65vh;
+  height: 62vh;
   justify-content: center;
   text-align: left;
   padding-left: 40px;
