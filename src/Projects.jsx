@@ -164,7 +164,6 @@ export default class Projects extends Component {
                          <div class="link">  Figma </div></a>
                      </div>
                      <br />
-                     <br />
 
                      </p>
                             </div> 
