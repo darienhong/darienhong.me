@@ -15,8 +15,8 @@
 
 @media only screen and (max-device-width: 640px){
   .full-page { 
-    width: 100vw; 
-    height: 100vh;
+    width: 100vw !important; 
+    height: calc(var(--vh, 1vh) * 100) !important;
   }
   .homepage, .about, .experience {
     width: 90% !important; 
@@ -78,6 +78,7 @@
     text-align: center !important;
     padding-right: 0 !important;
     padding: 0 !important;
+    bottom: 0 !important; 
   }
 }
 

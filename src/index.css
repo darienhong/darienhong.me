@@ -30,6 +30,8 @@ code {
 @font-face {
   font-family: 'Jost';
   src: local('Jost'), url(./fonts/Jost-Regular.ttf) format('truetype');
+  -webkit-font-feature-settings: "kern" 1;
+  text-rendering: optimizeLegibility;
 }
 
 @font-face {
