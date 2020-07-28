@@ -53,10 +53,7 @@ export default class Home extends Component {
                 <br />
                 <br />
                 <br />
-                <br />
-                <br />
-                <br />
-                <br/> 
+              
               <div class="homepage">
                   <div class="homepage-header">
                       <div class="buttons" style={{textAlign: "left"}}>
