@@ -16,7 +16,7 @@ export default class Footer extends Component {
 
             <div class="footer-block">
             <footer > 
-                Developed and designed with &hearts; by Darien Hong &copy; 2020 
+                Developed and designed with &#9829; by Darien Hong &copy; 2020 
             </footer>
             </div> 
 
