@@ -56,6 +56,17 @@
   .exp-text { 
     line-height: normal !important;
   }
+  h2 { 
+    font-size: 30px !important;
+  }
+
+  p { 
+    font-size: 14px !important;
+  }
+
+  .title-text { 
+    font-size: 24px !important;
+  }
 
   .experience-block-1, .experience-block-2, .experience-block-3, .experience-block-4,
   .experience-block-5, .experience-block-6, .experience-block-7 {
