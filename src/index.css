@@ -32,6 +32,7 @@ code {
   src: local('Jost'), url(./fonts/Jost-Regular.ttf) format('truetype');
   -webkit-font-feature-settings: "kern" 1;
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased !important;
 }
 
 @font-face {
@@ -62,4 +63,5 @@ code {
 @font-face {
   font-family: 'Display';
   src: local('Display'), url(./fonts/DMSerifDisplay-Regular.ttf) format('truetype');
+  -webkit-font-smoothing: antialiased;
 }
