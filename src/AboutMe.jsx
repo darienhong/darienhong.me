@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navbar from './navbar.jsx';
+import NavbarAbout from './navbar-about.jsx';
 import Scrollbar from 'react-scrollbars-custom';
 import Image from './assets/me.png';
 import Image2 from './assets/me2.png';
@@ -38,7 +39,7 @@ export default class AboutMe extends Component {
 
         return (
             <div class="full-page">
-                <Navbar />
+                <NavbarAbout />
                 {display === false && (
                 <div class="appear-div" onClick={this.handleClickOpen}>
                      </div>

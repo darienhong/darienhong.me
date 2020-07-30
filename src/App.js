@@ -21,7 +21,7 @@ export default class Navbar extends Component {
         document.documentElement.style.setProperty('--vh', `${vh}px`);
 
       })
-        return(
+        return (
           <Router> 
             <Switch>
               <Route path="/Home">
@@ -40,10 +40,7 @@ export default class Navbar extends Component {
                 <Home />
               </Route>
             </Switch>
-          </Router>
-
-
-         
+          </Router>       
 
         );
     }

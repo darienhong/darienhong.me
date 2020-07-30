@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navbar from './navbar.jsx';
-import Scrollbar from 'react-scrollbars-custom';
-import Image from './assets/me.png';
+import NavbarProjects from './navbar-projects.jsx';
 import {
     BrowserRouter as Router,
     Switch,
     Route,
     Link
   } from "react-router-dom";
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
 import Footer from './footer.jsx';
 import AddIcon from '@material-ui/icons/Add';
 import RemoveIcon from '@material-ui/icons/Remove';
@@ -105,7 +102,7 @@ export default class Projects extends Component {
 
         return (
             <div class="full-page">
-                <Navbar />
+                <NavbarProjects />
                 {display === false && (
                 <div class="appear-div" onClick={this.handleClickOpen}>
                      </div>
@@ -187,11 +184,19 @@ export default class Projects extends Component {
                        
                         <p class="title-text"> darienhong.me </p>  
                         <h3><i>  Summer 2020 </i> </h3>
-                        <p style={{ paddingTop: "5px"}}> ReactJS, JSX, HTML, CSS, Front-End Development </p>
+                        <p style={{ paddingTop: "5px"}}> ReactJS, HTML, CSS, Front-End Development, Figma </p>
                       
-                      {displayBlock3 === true && (  <p style={{lineHeight: "normal"}}>  As a personal project Summer 2020, I built my own personal website (what you're looking at now) 
-                     to act as an online resume and portfolio. I took this as an opportunity to improve my HTML/CSS and JavaScript. I am constantly looking for ways to improve 
-                     the site and make it as me as possible. 
+                      {displayBlock3 === true && (  <p style={{lineHeight: "normal"}}>  As a personal project during Summer 2020, I built my own personal website (what you're looking at now) 
+                     to act as an online resume and portfolio. I started by creating wireframes and a prototype in Figma and then I brought my ideas to life using React, HTML, CSS and JavaScript. 
+                    I created a responsive website that you can view on your tablets or phones. I am always updating the site with new information and looking for ways 
+                    to make it better. 
+                    <br />
+                      <div class="project-links"> 
+                     <a href="https://www.figma.com/file/yqEUqpokCSWD5kH8uTLjoO/darienhong.me?node-id=0%3A1" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
+                         <div class="link">  Figma </div></a>
+                     </div>
+                     <br />
+                     <br />
                      
                         </p>
                         )}
@@ -211,7 +216,7 @@ export default class Projects extends Component {
                        
                         <p class="title-text"> Securicard </p>  
                         <h3 ><i> BOLT Fintech Case Comp/Hackathon &bull;  November 2019 </i> </h3>
-                        <p style={{ paddingTop: "5px"}}> Swift, XCode, Front-End, UI Demo </p>
+                        <p style={{ paddingTop: "5px"}}> Swift, Xcode, Front-End, UI Design </p>
                       
                       {displayBlock2 === true && ( <div>  <p style={{lineHeight: "normal"}}> McGill's club BOLT held their annual Case Competition/Hackathon in November of 2019. My team
                      and I participated in this week-long intensive competition filled with workshops, guest speakers 
@@ -249,7 +254,7 @@ export default class Projects extends Component {
                        
                         <p class="title-text"> Digi-Fridge </p>  
                         <h3><i>  McWics 2020 &bull; Jan 2020 </i> </h3>
-                        <p style={{ paddingTop: "5px"}}> React-Native, JavaScript, Sustainability Hack </p>
+                        <p style={{ paddingTop: "5px"}}> React-Native, JavaScript, Mobile Development, Sustainability Hack </p>
                       
                       {displayBlock4 === true && (  <p style={{lineHeight: "normal"}}> McGill's Women in Computer Science (McWICS) society hosted their annual hackathon in January of 2020.
                      My team and I decided that we wanted

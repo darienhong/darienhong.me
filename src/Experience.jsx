@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navbar from './navbar.jsx';
+import NavbarExp from './navbar-exp.jsx';
 import Scrollbar from 'react-scrollbars-custom';
 import Image from './assets/me.png';
 import Footer from './footer.jsx';
@@ -101,7 +102,7 @@ export default class Experience extends Component {
 
         return (
             <div class="full-page">
-                <Navbar />
+                <NavbarExp />
                 {display === false && (
                 <div class="appear-div" onClick={this.handleClickOpen}>
                      </div>

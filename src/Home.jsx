@@ -87,10 +87,10 @@ export default class Home extends Component {
                           </div>
                               <div class="contact-button" style={{marginLeft: "20px"}}>
 
-                                  <SocialIcon className="icon" url="https://github.com/darienhong" bgColor="rgb(82, 117, 163)" style={{width: 26, height: 26}} />
+                                  <a href="https://github.com/darienhong" target="_blank" rel="noopener noreferrer"> <SocialIcon className="icon" network="github" bgColor="rgb(82, 117, 163)" style={{width: 26, height: 26}} /></a>
                           </div>
                               <div class="contact-button">
-                              <SocialIcon className="icon" url="https://www.linkedin.com/in/darienhong/" bgColor="rgb(82, 117, 163)" style={{width: 26, height: 26}} />
+                              <a href="https://www.linkedin.com/in/darienhong/" target="_blank" rel="noopener noreferrer"><SocialIcon className="icon" network="linkedin" bgColor="rgb(82, 117, 163)" style={{width: 26, height: 26}} /></a>
                      
                           </div>
 

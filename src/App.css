@@ -364,7 +364,7 @@ nav a:hover::before {
 
 .about-text {
 /*  width: 96%; */
-  height: 62vh;
+  height: 66vh;
   justify-content: center;
   text-align: left;
   padding-left: 40px;
@@ -479,6 +479,8 @@ nav a:hover::before {
   font-weight: 550; 
   display: block;
   line-height: 80%;
+  font-family: 'Display';
+  
 }
 
 .wireframe { 
@@ -526,7 +528,7 @@ nav a:hover::before {
 ::-webkit-scrollbar-thumb {
   cursor: pointer; 
   border-radius: 15px; 
-  background: rgb(228, 210, 210); 
+  background: rgb(230, 205, 205); 
 }
 ::-webkit-scrollbar-track {
   background: transparent;
