@@ -82,7 +82,7 @@ export default class Home extends Component {
                           <div class="contact">
                               <p style={{}}> Come say hi! </p>
                               <div class="contact-button">
-                              <a href={"mailto: darienhong7@gmail.com"} ><SocialIcon className="icon" network="email" bgColor="rgb(82, 117, 163)" style={{width: 26, height: 26}} /></a>
+                              <a href={"mailto: darien.hong7@gmail.com"} ><SocialIcon className="icon" network="email" bgColor="rgb(82, 117, 163)" style={{width: 26, height: 26}} /></a>
                       
                           </div>
                               <div class="contact-button" style={{marginLeft: "20px"}}>
