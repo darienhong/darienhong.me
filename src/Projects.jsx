@@ -1,19 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navbar from './navbar.jsx';
 import NavbarProjects from './navbar-projects.jsx';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+
 import Footer from './footer.jsx';
 import AddIcon from '@material-ui/icons/Add';
 import RemoveIcon from '@material-ui/icons/Remove';
-import Image1 from './assets/homescreen.png';
-import Image2 from './assets/course.png';
-import Image3 from './assets/onboarding.png';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 export default class Projects extends Component { 
@@ -24,8 +15,8 @@ export default class Projects extends Component {
         displayBlock3: false,
         displayBlock4: false,
         displayBlock5: false,
-        displayBlock6: false,
-        displayBlock7: false,
+      /*  displayBlock6: false, */
+     /*   displayBlock7: false, */
     }
 
 
@@ -94,8 +85,8 @@ export default class Projects extends Component {
             displayBlock3,
             displayBlock4,
             displayBlock5,
-            displayBlock6,
-            displayBlock7,
+        /*    displayBlock6, */
+        /*    displayBlock7, */
         
         
         } = this.state;

@@ -1,18 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navbar from './navbar.jsx';
 import NavbarExp from './navbar-exp.jsx';
-import Scrollbar from 'react-scrollbars-custom';
-import Image from './assets/me.png';
 import Footer from './footer.jsx';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
 import AddIcon from '@material-ui/icons/Add';
 import RemoveIcon from '@material-ui/icons/Remove';
 

@@ -1,15 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navbar from './navbar.jsx';
 import NavbarAbout from './navbar-about.jsx';
-import Scrollbar from 'react-scrollbars-custom';
 import Image from './assets/me.png';
 import Image2 from './assets/me2.png';
 import Footer from './footer.jsx';
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link
   } from "react-router-dom";
 
