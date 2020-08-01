@@ -214,7 +214,7 @@ export default class Projects extends Component {
                      and I participated in this week-long intensive competition filled with workshops, guest speakers 
                      and a final pitch day at the Microsoft Office in Montreal. We came up with this new credit monitoring
                      solution for small businesses - a digital business card distributor software as a service for business 
-                     executives/administrators to implement as a way of budgeting, and maintaining employee credibility. My team
+                     executives/administrators to implement as a way of budgeting and maintaining employee credibility. My team
                      and I won second place for our pitch and idea. I used <b> Swift </b> and  <b> Xcode </b> to create a UI Demo. 
                      <br />
                      <div class="project-links"> 
