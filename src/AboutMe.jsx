@@ -89,12 +89,12 @@ export default class AboutMe extends Component {
                 At McGill University, I study the uses of computers and programming languages, while 
                 developing technical skills and a new perspective on problem solving. In the process of 
                 solving problems or the development of new ideas, I also take into consideration how <i>nice </i> 
-                something looks. Design for me is a way to bring my ideas to life in a creative, meaningful 
+                something looks. Design for me is a way to bring my ideas to life in a creative and meaningful 
                  way that resonates with people. </p>
                 </div>
                 <div style={{lineHeight: "6mm"}}> <p>
                I was born in New Jersey, USA and moved to Toronto, Canada when I was 6. Now, I've found 
-                my way to Montr&eacute;al to study <a href="https://www.mcgill.ca/study/2020-2021/faculties/science/undergraduate/programs/bachelor-science-bsc-major-computer-science"
+                my way to Montreal to study <a href="https://www.mcgill.ca/study/2020-2021/faculties/science/undergraduate/programs/bachelor-science-bsc-major-computer-science"
                 target="_blank" rel="noopener noreferrer"> Computer Science
                 </a> at McGill University. What may be interesting 
                 to you is how I originally applied to study Psychology, with no background in science at all, but found 
@@ -108,8 +108,8 @@ export default class AboutMe extends Component {
                           <p> 
                           When I'm not at the library hunched over my laptop or pulling all-nighters at <span style={{textDecoration: "underline"}}><Link to="/Projects"> Hackathons</Link></span>, you
                 can find me exploring the city, taking a nice walk to the park or cooking up a storm in the 
-                kitchen! I consider myself a curious person, and I'm always looking for new things to explore,
-                new foods to try, new things to learn, and new ways to keep myself entertained. 
+                kitchen. I consider myself a curious person, and I'm always looking for new things to explore,
+                new foods to try, new things to learn, and new ways to improve myself. 
                           </p>
                           </div>
                         

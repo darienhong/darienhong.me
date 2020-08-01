@@ -6,6 +6,7 @@ import Footer from './footer.jsx';
 import AddIcon from '@material-ui/icons/Add';
 import RemoveIcon from '@material-ui/icons/Remove';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import SlideshowIcon from '@material-ui/icons/Slideshow';
 
 export default class Projects extends Component { 
     state = {
@@ -144,7 +145,7 @@ export default class Projects extends Component {
                         <p style={{ paddingTop: "5px"}}>  UX/UI Design, Figma, Wireframes, Prototyping  </p>
                       
                       {displayBlock1 === true && ( <div>  <p style={{lineHeight: "normal"}}> I was asked by a group of students at McGill who were working on an educational
-                      live-streaming platform as a summer project to join the team as a UX/UI Designer. I created wireframes for the the app's design using Figma. 
+                      live-streaming platform as a summer project to join the team as a UX/UI Designer. I created simple wireframes for the the app's base design using <b> Figma</b>. 
                       
                       <br />
                       <div class="project-links"> 
@@ -177,8 +178,8 @@ export default class Projects extends Component {
                         <h3><i>  Summer 2020 </i> </h3>
                         <p style={{ paddingTop: "5px"}}> ReactJS, HTML, CSS, Front-End Development, Figma </p>
                       
-                      {displayBlock3 === true && (  <p style={{lineHeight: "normal"}}>  As a personal project during Summer 2020, I built my own personal website (what you're looking at now) 
-                     to act as an online resume and portfolio. I started by creating wireframes and a prototype in Figma and then I brought my ideas to life using React, HTML, CSS and JavaScript. 
+                      {displayBlock3 === true && (  <p style={{lineHeight: "normal"}}>  As a project to keep myself busy during Summer 2020, I built my own personal website (what you're looking at now) 
+                     to act as an online resume and portfolio. I started by creating wireframes and a prototype in Figma and then I brought my ideas to life using <b> React, HTML, CSS </b> and <b> JavaScript</b>. 
                     I created a responsive website that you can view on your tablets or phones. I am always updating the site with new information and looking for ways 
                     to make it better. 
                     <br />
@@ -214,12 +215,13 @@ export default class Projects extends Component {
                      and a final pitch day at the Microsoft Office in Montreal. We came up with this new credit monitoring
                      solution for small businesses - a digital business card distributor software as a service for business 
                      executives/administrators to implement as a way of budgeting, and maintaining employee credibility. My team
-                     and I won second place for our pitch and idea. I used Swift and Xcode to create a UI Demo. 
+                     and I won second place for our pitch and idea. I used <b> Swift </b> and  <b> Xcode </b> to create a UI Demo. 
                      <br />
                      <div class="project-links"> 
+                     <a href="https://drive.google.com/file/d/1XctAtTYE9o8UlcNnM2rm0ps-7wMITezY/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
+                        <div class="link"> <SlideshowIcon style={{fontSize: "16px"}}/> &nbsp; Slides </div></a>
                         <a href="https://github.com/conniaren/SecuriCard-BOLT-Fintech-Pitch" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
                         <div class="link"> <GitHubIcon style={{fontSize: "16px"}}/> &nbsp; Github </div></a>
-                        
                      </div>
                      <br />
                      <br />
@@ -253,7 +255,7 @@ export default class Projects extends Component {
                      for people to keep track of what they currently have in their fridge, reminding them of upcoming expiration dates
                      and a way to help people avoid buying things they already have and may have forgotten about. The motive behind this 
                      idea was to reduce food waste, help users budget and be an organization tool as well. During this hackathon, we learned
-                     how to use React-Native and JS to create a demo for the app. 
+                     how to use <b> React-Native </b> and <b> JavaScript </b>to create a demo for the app. 
                      <br />
                      <div class="project-links"> 
                      <a href="https://devpost.com/software/digi-fridge" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
@@ -291,7 +293,7 @@ export default class Projects extends Component {
                 learn something new. My team and I did not end up submitting our project on time, but instead 
                 we took the time to learn a new language and talk to sponsors. Our idea was a mobile app for social good
                 - The idea was an app with a series of games all related to different charities. Whenever you level up in a game, 
-                sponsors with donate to the charity of choice. I took the weekend as an opportunity to learn Swift and a little more about iOS Mobile Development.  
+                sponsors with donate to the charity of choice. I took the weekend as an opportunity to learn <b> Swift</b> and a little more about <b> iOS Mobile Development</b>.  
                 <br />
                 <div class="project-links"> 
                      <a href="https://devpost.com/software/foals" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>

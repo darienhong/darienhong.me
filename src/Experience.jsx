@@ -142,9 +142,9 @@ export default class Experience extends Component {
                         <h3 > <i> Santa Monica, CA &bull;  June 2020 &mdash; August 2020 </i> </h3>
                         <p style={{ paddingTop: "5px"}}>  Software Engineering Intern, Start-Up, Full-Stack Development  </p>
                       
-                      {displayBlock1 === true && (  <p style={{lineHeight: "normal"}}> Through Open Water Accelerator, a new kind of start-up Accelerator, I was paired with a start-up called SMB Legal looking as a "builder", a Software
-                            Engineering Intern who could help build the business' website and software service from scratch. 
-                            I created the company's site/software service smbusinesslegal.com using ReactJS, Node.js, PostgreSQL and AWS Services. Due to COVID-19, this internship was remote.
+                      {displayBlock1 === true && (  <p style={{lineHeight: "normal"}}> Through Open Water Accelerator, a new kind of start-up Accelerator, I was paired with a start-up called SMB Legal as a "builder", a Software
+                            Engineering Intern who could help build the business' website and software service from scratch. To have an MVP to present to investors by the end of the summer,
+                            I created the company's site/software service using <b> ReactJS, Node.js, PostgreSQL,</b>and <b> AWS Services</b>. Due to COVID-19, this internship was remote.
                         </p>
                         )}
                                   
@@ -166,7 +166,8 @@ export default class Experience extends Component {
                         <p style={{ paddingTop: "5px"}}> UX/UI Researcher, Design, Functional Programming </p>
                       
                       {displayBlock2 === true && (  <p style={{lineHeight: "normal"}}> Hired by a McGill Alumni, I worked on UX/UI Design Research for an
-                      education platform start-up. In order to understand the other aspects of the project, I learned some functional programming in Idris and Elm. 
+                      education platform start-up. In order to understand the other aspects of the project, I learned some functional programming in <b> Idris</b> and <b> Elm</b>. 
+                      I created a base design for the learning platform using <b> Figma</b>.
                       Due to COVID-19, this research position was remote. 
                         </p>
                         )}
@@ -193,7 +194,8 @@ export default class Experience extends Component {
                       in the computer science department. The <i> Helpdesk </i> is an initiative run by the society where we offer tutoring services everyday for any 
                       computer science class offered at McGill at the undergraduate level. As the VP Helpdesk, I am in charge of recruiting, interviewing and 
                       overseeing all 50 tutors that we hire and organize a tutoring schedule, as well as planning review sessions and specialized workshops for more complex CS topics. 
-                      Before being elected as the VP Helpdesk, I worked as a tutor for one semester and received the Tomlinson Engagement Award for Mentoring. 
+                      Before being elected as the VP Helpdesk, I worked as a tutor for one semester and received the <a href="https://www.mcgill.ca/tpulse/tomlinson-engagement-award-mentoring-team"
+                      target="_blank" rel="noopener noreferrer"> Tomlinson Engagement Award for Mentoring. </a>
                         </p>
                         )}
                                   
@@ -218,7 +220,7 @@ export default class Experience extends Component {
                       {displayBlock5 === true && (  <p style={{lineHeight: "normal"}}> McGill's club Design Collective is a student-run design community that aims to 
                       nurture creativity and design thinking. We host interactive workshops and career-related events with guest speakers from different industries that 
                       incorporate design. As the VP Events, I was in charge of planning our weekly events (UX/UI Design Workshop, Prototyping Workshop, Shopify Guest Panel etc.) 
-                      and help advertise the events throughout the school. I also created the club's official website using Webflow and Figma. 
+                      and help advertise the events throughout the school. I also created the club's official website using <b> Webflow </b>and <b> Figma</b>. 
                         </p>
                         )}
                                   

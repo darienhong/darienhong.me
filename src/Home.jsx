@@ -71,8 +71,8 @@ export default class Home extends Component {
                       
                       <div class="homepage-text">
                          <h2> Hi, I'm Darien! </h2>
-                          <p> I'm an aspiring Software Developer, interested in Front-End Development,
-                              Product Design and UX/UI Design. I'm a huge fan of people and learning how things work. </p>
+                          <p> I'm an aspiring Software Developer, interested in Front-End Development, Mobile Development, and
+                              Product &amp; UX/UI Design. I'm a huge fan of people and learning how things work. </p>
                           
                           <div class="contact">
                               <p style={{}}> Come say hi! </p>
