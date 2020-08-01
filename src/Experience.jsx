@@ -143,7 +143,7 @@ export default class Experience extends Component {
                         <p style={{ paddingTop: "5px"}}>  Software Engineering Intern, Start-Up, Full-Stack Development  </p>
                       
                       {displayBlock1 === true && (  <p style={{lineHeight: "normal"}}> Through Open Water Accelerator, a new kind of start-up Accelerator, I was paired with a start-up called SMB Legal as a "builder", a Software
-                            Engineering Intern who could help build the business' website and software service from scratch. To have an MVP to present to investors by the end of the summer,
+                            Engineering Intern who could help build the business' product from scratch. To have an MVP to present to investors by the end of the summer,
                             I created the company's site/software service using <b> ReactJS, Node.js, PostgreSQL,</b>and <b> AWS Services</b>. Due to COVID-19, this internship was remote.
                         </p>
                         )}

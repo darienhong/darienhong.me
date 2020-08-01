@@ -108,7 +108,7 @@ export default class AboutMe extends Component {
                           <p> 
                           When I'm not at the library hunched over my laptop or pulling all-nighters at <span style={{textDecoration: "underline"}}><Link to="/Projects"> Hackathons</Link></span>, you
                 can find me exploring the city, taking a nice walk to the park or cooking up a storm in the 
-                kitchen. I consider myself a curious person, and I'm always looking for new things to explore,
+                kitchen. I consider myself a curious person, and I'm always looking for new passions to explore,
                 new foods to try, new things to learn, and new ways to improve myself. 
                           </p>
                           </div>
