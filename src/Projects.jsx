@@ -288,12 +288,12 @@ export default class Projects extends Component {
                       
                       {displayBlock5 === true && (  <p style={{lineHeight: "normal"}}> I participated in my first Hackathon in October of 2019, which was Yale's Annual
                 Hackathon, YHACK 2019. I formed a team with some other first-timers that I met on 
-                the bus to Conneticut, and as overwhelming as the weekend was, I believe that it was 
+                the bus to Connecticut, and as overwhelming as the weekend was, I believe that it was 
                 a great experience and the perfect opportunity to network, participate in workshops and 
                 learn something new. My team and I did not end up submitting our project on time, but instead 
                 we took the time to learn a new language and talk to sponsors. Our idea was a mobile app for social good
                 - The idea was an app with a series of games all related to different charities. Whenever you level up in a game, 
-                sponsors with donate to the charity of choice. I took the weekend as an opportunity to learn <b> Swift</b> and a little more about <b> iOS Mobile Development</b>.  
+                sponsors will donate to the charity of choice. I took the weekend as an opportunity to learn <b> Swift</b> and a little more about <b> iOS Mobile Development</b>.  
                 <br />
                 <div class="project-links"> 
                      <a href="https://devpost.com/software/foals" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
