@@ -17,7 +17,7 @@ export default class NavbarAbout extends Component {
                     <li><Link to="/About" style={{color: "white"}}> About </Link></li>
                     <li><Link to="/Experience"> Experience </Link></li>
                     <li><Link to="/Projects"> Projects </Link></li>
-                    <li><a href="https://drive.google.com/file/d/1wIsmgJvksBiFsv1gyQtSoE1Hbpr6nqQp/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Resume </a></li>
+                    <li><a href="https://drive.google.com/file/d/1WwveLvOF9pZMFvQZC5AJV7GCTM79Nnfe/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Resume </a></li>
                 </ul>
             </nav>
         </div>
