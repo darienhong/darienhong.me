@@ -15,6 +15,7 @@ export default class Experience extends Component {
         displayBlock5: false,
         displayBlock6: false,
         displayBlock7: false,
+        displayBlock8: false,
     }
 
 
@@ -72,6 +73,12 @@ export default class Experience extends Component {
         })
     }
 
+    onClick8 = () => {
+        this.setState({
+            displayBlock8: !this.state.displayBlock8,
+        })
+    }
+
 
 
     render() {
@@ -85,6 +92,7 @@ export default class Experience extends Component {
             displayBlock5,
             displayBlock6,
             displayBlock7,
+            displayBlock8,
         
         
         } = this.state;
@@ -130,6 +138,29 @@ export default class Experience extends Component {
                  {/*  <Scrollbar renderThumbVertical={props => <div {...props} className="scrollbar" />} style={{color: "black"}}> */}
                     <h2> work &amp; community involvement </h2>
                          <div class="experience-description">
+                         <center>  
+                         <div class="experience-block-8"> 
+                    <div class="exp-text">
+                        {displayBlock8 === false && (
+                    <AddIcon className="dropdown" style={{ fontSize: "18px"}} onClick={this.onClick8}/> )}
+                    {displayBlock8 === true && ( 
+                    <RemoveIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick8}/> )}
+                       
+                        <p class="title-text"> Amazon Web Services (AWS) </p>  
+                        <h3 > <i> Irvine, CA &bull;  June 2021 &mdash; August 2021 </i> </h3>
+                        <p style={{ paddingTop: "5px"}}>  Solutions Architect Intern, Serverless Architecture, Architecture Design  </p>
+                      
+                      {displayBlock8 === true && (  <p style={{lineHeight: "normal"}}> As a Solutions Architect Intern, I had the opporunity to work on an intern project under my domain of choice: <b> Serverless</b>.
+                       I designed an architecture for the Serverless solution using AWS technologies, used the Amazonian 'Working Backwards' process to write a PRFAQ, and built a working demo for a fan-engagement platform using
+                         <b> Lambda, API Gateway, IoT Core, DynamoDB, Amplify, CDK </b>and <b> ReactJS </b>. Due to COVID-19, this internship was remote.
+                        </p>
+                        )}
+                                  
+                    </div>
+                   </div>
+                        </center>
+                        <br />
+                        <br />
                     <center>  
                          <div class="experience-block-1"> 
                     <div class="exp-text">
@@ -142,7 +173,8 @@ export default class Experience extends Component {
                         <h3 > <i> Santa Monica, CA &bull;  June 2020 &mdash; August 2020 </i> </h3>
                         <p style={{ paddingTop: "5px"}}>  Software Engineering Intern, Start-Up, Full-Stack Development  </p>
                       
-                      {displayBlock1 === true && (  <p style={{lineHeight: "normal"}}> Through Open Water Accelerator, a new kind of start-up Accelerator, I was paired with a start-up called SMB Legal as a "builder", a Software
+                      {displayBlock1 === true && (  <p style={{lineHeight: "normal"}}> 
+                         Through Open Water Accelerator, a new kind of start-up Accelerator, I was paired with a start-up called SMB Legal as a "builder", a Software
                             Engineering Intern who could help build the business' product from scratch. To have an MVP to present to investors by the end of the summer,
                             I created the company's site/software service using <b> ReactJS, Node.js, PostgreSQL,</b>and <b> AWS Services</b>. Due to COVID-19, this internship was remote.
                         </p>

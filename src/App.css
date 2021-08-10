@@ -69,7 +69,7 @@
   }
 
   .experience-block-1, .experience-block-2, .experience-block-3, .experience-block-4,
-  .experience-block-5, .experience-block-6, .experience-block-7 {
+  .experience-block-5, .experience-block-6, .experience-block-7, .experience-block-8 {
   width: 100% !important;
   }
 
@@ -355,7 +355,7 @@ nav a:hover::before {
 }
 
 .experience-block-1, .experience-block-2, .experience-block-3, .experience-block-4,
-.experience-block-5, .experience-block-6, .experience-block-7 { 
+.experience-block-5, .experience-block-6, .experience-block-7, .experience-block-8 { 
   width: 94%; 
   /* background-color: rgb(235, 212, 212); */
   background-color: rgb(190, 201, 216); 
