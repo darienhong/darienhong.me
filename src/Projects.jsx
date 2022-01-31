@@ -175,7 +175,7 @@ export default class Projects extends Component {
                     <RemoveIcon className="dropdown" style={{ fontSize: "18px"}}  onClick={this.onClick3}/> )}
                        
                         <p class="title-text"> darienhong.me </p>  
-                        <h3><i>  Summer 2020 </i> </h3>
+                        <h3><i>  Summer 2020 (Presently maintained) </i> </h3>
                         <p style={{ paddingTop: "5px"}}> ReactJS, HTML, CSS, Front-End Development, Figma </p>
                       
                       {displayBlock3 === true && (  <p style={{lineHeight: "normal"}}>  As a project to keep myself busy during Summer 2020, I built my own personal website (what you're looking at now) 

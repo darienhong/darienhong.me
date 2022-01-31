@@ -71,7 +71,7 @@ export default class Home extends Component {
                       
                       <div class="homepage-text">
                          <h2> Hi, I'm Darien! </h2>
-                          <p> I'm an aspiring Software Developer, interested in how technology is constantly evolving
+                          <p> I'm an incoming Solutions Architect at Amazon Web Services, interested in how technology is constantly evolving
                               and creating technical solutions to real world problems. I'm a huge fan of people and learning how things work. </p>
                           
                           <div class="contact">
@@ -88,7 +88,11 @@ export default class Home extends Component {
                               <a href="https://www.linkedin.com/in/darienhong/" target="_blank" rel="noopener noreferrer"><SocialIcon className="icon" network="linkedin" bgColor="rgb(82, 117, 163)" style={{width: 26, height: 26}} /></a>
                      
                           </div>
-
+                          <div class="contact-button">
+                              <a href="https://darienhong.medium.com" target="_blank" rel="noopener noreferrer"><SocialIcon className="icon" network="medium" bgColor="rgb(82, 117, 163)" style={{width: 26, height: 26}} /></a>
+                     
+                          </div>
+                          
 
                         </div>
                         <br />

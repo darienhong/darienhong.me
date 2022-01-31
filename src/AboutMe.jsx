@@ -87,7 +87,8 @@ export default class AboutMe extends Component {
                         <p> <span style={{color: "rgb(82, 117, 163)", fontSize: "20px", fontFamily: "Display", fontWeight: "600"}}> Hi, I'm Darien! </span> I'm what you may call a <span style={{fontWeight: "600"}}> peculiar </span> person. I'm always asking myself - 
                 "How does this work?", "How do I solve this problem?", "Why do I like how this looks?". 
                 At McGill University, I study the uses of computers and programming languages, while 
-                developing technical skills and a new perspective on problem solving. In the process of 
+                developing technical skills and a new perspective on problem solving. I enjoy helping people find technical solutions to their real world problems.
+                In the process of 
                 solving problems or the development of new ideas, I also take into consideration how <i>nice </i> 
                 something looks. Design for me is a way to bring my ideas to life in a creative and meaningful 
                  way that resonates with people. </p>
@@ -106,10 +107,11 @@ export default class AboutMe extends Component {
                          </div> 
                          <div style={{lineHeight: "6mm"}}> 
                           <p> 
-                          When I'm not at the library hunched over my laptop or pulling all-nighters at <span style={{textDecoration: "underline"}}><Link to="/Projects"> Hackathons</Link></span>, you
+                          When I'm not at the library hunched over my laptop or pulling all-nighters at <span style={{textDecoration: "underline"}}><Link to="/Projects"> Hackathons</Link></span> (pre-covid), you
                 can find me exploring the city, taking a nice walk to the park or cooking up a storm in the 
-                kitchen. I consider myself a curious person, and I'm always looking for new passions to explore,
-                new foods to try, new things to learn, and new ways to improve myself. 
+                kitchen. I've recently picked up writing <a href="https://darienhong.medium.com" target="_blank" rel="noopener noreferrer">blogs</a> as a form of expressing myself and sharing my experiences with other people; 
+                check out my four-part University series! I consider myself a curious person, and I'm always looking 
+                for new passions to explore, new foods to try, new things to learn, and new ways to improve myself. 
                           </p>
                           </div>
                         

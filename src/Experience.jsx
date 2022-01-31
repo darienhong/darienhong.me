@@ -152,7 +152,8 @@ export default class Experience extends Component {
                       
                       {displayBlock8 === true && (  <p style={{lineHeight: "normal"}}> As a Solutions Architect Intern, I had the opporunity to work on an intern project under my domain of choice: <b> Serverless</b>.
                        I designed an architecture for the Serverless solution using AWS technologies, used the Amazonian 'Working Backwards' process to write a PRFAQ, and built a working demo for a fan-engagement platform using
-                         <b> Lambda, API Gateway, IoT Core, DynamoDB, Amplify, CDK </b>and <b> ReactJS </b>. Due to COVID-19, this internship was remote.
+                         <b> Lambda, API Gateway, IoT Core, DynamoDB, Amplify, CDK </b>and <b> ReactJS</b>. During the build process, I met with simulated "clients" to deliver customer-focused presentations and worked on cultivating 
+                         my relationships with them as their direct AWS contact. Due to COVID-19, this internship was remote.
                         </p>
                         )}
                                   
@@ -219,7 +220,7 @@ export default class Experience extends Component {
                     <RemoveIcon className="dropdown" style={{ fontSize: "18px"}} onClick={this.onClick4}/> )}
                        
                         <p class="title-text"> Computer Science Undergraduate Society (CSUS)  </p>  
-                        <h3><i>  McGill University &bull; Jan 2020 &mdash; May 2021 </i> </h3>
+                        <h3><i>  McGill University &bull; Jan 2020 &mdash; Present </i> </h3>
                         <p style={{ paddingTop: "5px"}}> Vice-President Helpdesk, Computer Science Tutor/Mentor, TEAM Awardee </p>
                       
                       {displayBlock4 === true && (  <p style={{lineHeight: "normal"}}> CSUS is a student elected group tasked with improving student academics and life 
