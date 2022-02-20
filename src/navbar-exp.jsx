@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Pdf from './files/Darien_Hong_Resume.pdf';
 import './App.css';
 import {
     Link
@@ -17,8 +18,7 @@ export default class NavbarExp extends Component {
                     <li><Link to="/About"> About </Link></li>
                     <li><Link to="/Experience" style={{color: "white"}}> Experience </Link></li>
                     <li><Link to="/Projects"> Projects </Link></li>
-                    <li><a href="https://drive.google.com/file/d/1kfeZAD-jLNjn8GH9F7tioFPzq7-8wv_I/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Resume </a></li>
-                </ul>
+                    <li><a href= {Pdf} target="_blank" rel="noopener noreferrer"> Resume </a></li>                </ul>
             </nav>
         </div>
 
