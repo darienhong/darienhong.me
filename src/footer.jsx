@@ -9,10 +9,10 @@ export default class Footer extends Component {
 
             <div class="footer-block">
             <footer > 
-                Developed and designed with <span style={{fontFamily: "Segoe UI", padding: "0"}}>♥</span> by Darien Hong &copy; 2023 
+                Developed and designed with <span style={{fontFamily: "Segoe UI", padding: "0"}}>♥</span> by Darien Hong &copy; 2025 
             </footer>
             </div> 
 
         );
-    }git 
+    }
 }
