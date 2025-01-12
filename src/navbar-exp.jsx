@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Pdf from './files/Darien_Hong_Resume.pdf';
+import Pdf from './files/Resume2024.pdf';
 import './App.css';
 import {
     Link
