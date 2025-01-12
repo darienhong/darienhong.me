@@ -20,27 +20,51 @@ export default class Navbar extends Component {
         document.documentElement.style.setProperty('--vh', `${vh}px`);
 
       })
-        return (
-          <Router> 
-            <Switch>
-              <Route path="/Home">
-                <Home />
-              </Route>
-              <Route path="/Experience">
-                <Experience />
-              </Route>
-              <Route path="/Projects">
-              <Projects />
-              </Route> 
-              <Route path="/About">
-                <AboutMe />
-              </Route>
-              <Route path="/">
-                <Home />
-              </Route>
-            </Switch>
-          </Router>       
+
+      return (
+        <Router> 
+          <Switch>
+            <Route path="/Home">
+              <Home />
+            </Route>
+            <Route path="/Experience">
+              <Experience />
+            </Route>
+            <Route path="/Projects">
+            <Projects />
+            </Route> 
+            <Route path="/About">
+              <AboutMe />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </Router>   
+        // return (
+        //   <Router> 
+        //     <Switch>
+        //       <Route path="/Home" element={<Home/>}/>
+        //         {/* <Home />
+        //       </Route> */}
+        //       <Route path="/Experience" element={<Experience/>}/>
+        //         {/* <Experience />
+        //       </Route> */}
+        //       <Route path="/Projects" element={<Projects/>}/>
+        //       {/* <Projects />
+        //       </Route>  */}
+        //       <Route path="/About" element={<AboutMe/>}/>
+        //         {/* <AboutMe />
+        //       </Route> */}
+        //       <Route path="/" element={<Home/>}/>
+        //         {/* <Home />
+        //       </Route> */}
+        //     </Switch>
+        //   </Router>       
 
         );
     }
 }
+
+
+ 

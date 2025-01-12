@@ -4,7 +4,7 @@ import './App.css';
 import {
     Link
   } from "react-router-dom";
-import Logo from './assets/logo.png';
+import Logo from './assets/circle-logo-2.png';
 
 export default class NavbarAbout extends Component { 
     

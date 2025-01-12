@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import NavbarExp from './navbar-exp.jsx';
 import Footer from './footer.jsx';
-import AddIcon from '@material-ui/icons/Add';
-import RemoveIcon from '@material-ui/icons/Remove';
+import AddIcon from '@mui/icons-material/Add';
+import RemoveIcon from '@mui/icons-material/Remove';
 
 export default class Experience extends Component { 
     state = {

@@ -3,10 +3,10 @@ import './App.css';
 import NavbarProjects from './navbar-projects.jsx';
 
 import Footer from './footer.jsx';
-import AddIcon from '@material-ui/icons/Add';
-import RemoveIcon from '@material-ui/icons/Remove';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import SlideshowIcon from '@material-ui/icons/Slideshow';
+import AddIcon from '@mui/icons-material/Add';
+import RemoveIcon from '@mui/icons-material/Remove';
+import GitHubIcon from '@mui/icons-material/GitHub'
+import SlideshowIcon from '@mui/icons-material/Slideshow';
 
 export default class Projects extends Component { 
     state = {

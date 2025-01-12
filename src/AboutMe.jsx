@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import NavbarAbout from './navbar-about.jsx';
-import Image from './assets/me.png';
-import Image2 from './assets/me2.png';
+import Image from './assets/me-new.JPG';
+import Image2 from './assets/me-new-2.jpg';
 import Footer from './footer.jsx';
 import {
     Link
@@ -84,34 +84,30 @@ export default class AboutMe extends Component {
                             </div>
                         
                             <div style={{ lineHeight: "6mm"}}>
-                        <p> <span style={{color: "rgb(82, 117, 163)", fontSize: "20px", fontFamily: "Display", fontWeight: "600"}}> Hi, I'm Darien! </span> I'm what you may call a <span style={{fontWeight: "600"}}> peculiar </span> person. I'm always asking myself - 
-                "How does this work?", "How do I solve this problem?", "Why do I like how this looks?". 
-                At McGill University, I study the uses of computers and programming languages, while 
-                developing technical skills and a new perspective on problem solving. I enjoy helping people find technical solutions to their real world problems.
-                In the process of 
-                solving problems or the development of new ideas, I also take into consideration how <i>nice </i> 
-                something looks. Design for me is a way to bring my ideas to life in a creative and meaningful 
-                 way that resonates with people. </p>
+                        <p> <span style={{color: "rgb(82, 117, 163)", fontSize: "20px", fontFamily: "Display", fontWeight: "600"}}> Hi, I'm Darien! </span> 
+                        I was raised in Toronto, Canada and currently live in Seattle, in the evergreen state. I work as a Prototyping Architect at 
+                        AWS, helping customers of all sizes build large-scale prototypes using emerging technologies such as AI/ML, IoT, Robotics and Generative AI. The 
+                        technology landscape is evolving at an unprecedented pace, and I feel lucky to be at the forefront of it, and to be able to work with those technologies
+                        to create innovative solutions to real-world problems. 
+
+                 </p>
                 </div>
                 <div style={{lineHeight: "6mm"}}> <p>
-               I was born in New Jersey, USA and moved to Toronto, Canada when I was 6. Now, I've found 
-                my way to Montreal to study <a href="https://www.mcgill.ca/study/2020-2021/faculties/science/undergraduate/programs/bachelor-science-bsc-major-computer-science"
+               Prior to joining AWS, I studied <a href="https://www.mcgill.ca/study/2020-2021/faculties/science/undergraduate/programs/bachelor-science-bsc-major-computer-science"
                 target="_blank" rel="noopener noreferrer"> Computer Science
-                </a> at McGill University. What may be interesting 
-                to you is how I originally applied to study Psychology, with no background in science at all, but found 
-                myself gravitating towards computers, math and weird code. This competitive undergraduate 
-                program has armed me with a pocket of very practical analytical and technical hard skills, 
-                as well as opened doors for me to explore my creative side and has let me consider the endless 
-                career possibilities, as technology is constantly evolving in almost every industry.
+                </a> at McGill University in Montreal. Although I originally applied to study psychology, I found myself 
+                gravitating towards my STEM classes, and ultimately decided that studying CS was a better fit for me. This competitive 
+                undergraduate program armed me with a pocket of very practical analytical and technical hard skills, which I've been able to apply to my internships and my current role. 
                           </p>
                          </div> 
                          <div style={{lineHeight: "6mm"}}> 
                           <p> 
-                          When I'm not at the library hunched over my laptop or pulling all-nighters at <span style={{textDecoration: "underline"}}><Link to="/Projects"> Hackathons</Link></span> (pre-covid), you
-                can find me exploring the city, taking a nice walk to the park or cooking up a storm in the 
-                kitchen. I've recently picked up writing <a href="https://darienhong.medium.com" target="_blank" rel="noopener noreferrer">blogs</a> as a form of expressing myself and sharing my experiences with other people; 
-                check out my four-part University series! I consider myself a curious person, and I'm always looking 
-                for new passions to explore, new foods to try, new things to learn, and new ways to improve myself. 
+                Outside of work, I enjoy exploring new hobbies and learning new things about myself. My <b>current </b> obsessions and interests include: 
+                cooking healthy and interesting meals with whatever ingredients I have access to, crocheting cute animals, cross stitching,
+                board games, psychological and domestic thrillers, real estate, and dogs!! More specifically, my dog Miso (included on the right). 
+
+
+                        
                           </p>
                           </div>
                         
