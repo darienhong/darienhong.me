@@ -16,7 +16,7 @@ export default class Projects extends Component {
         displayBlock3: false,
         displayBlock4: false,
         displayBlock5: false,
-        /*  displayBlock6: false, */
+        displayBlock6: false
         /*   displayBlock7: false, */
     }
 
@@ -86,8 +86,7 @@ export default class Projects extends Component {
             displayBlock3,
             displayBlock4,
             displayBlock5,
-            /*    displayBlock6, */
-            /*    displayBlock7, */
+            displayBlock6
 
 
         } = this.state;
@@ -287,6 +286,43 @@ export default class Projects extends Component {
             )
         }
 
+        let projectBlock6 = () => {
+            return (
+                <center>
+                    <br />
+                    <div class="experience-block">
+                        <div class="exp-text">
+                            {displayBlock6 === false && (
+                                <AddIcon className="dropdown" style={{ fontSize: "18px" }} onClick={this.onClick6} />)}
+                            {displayBlock6 === true && (
+                                <RemoveIcon className="dropdown" style={{ fontSize: "18px" }} onClick={this.onClick6} />)}
+
+                            <p class="title-text"> Race-Along </p>
+                            <p style={{ paddingTop: "5px" }}> AWS Serverless, Lambda, CDK, TypeScript, React </p>
+
+                            {displayBlock6 === true && (<p style={{ lineHeight: "normal" }}> During my internship at AWS, I built a functioning prototype 
+                                for a fan engagement platform where you could track your favourite teams in real-time during a race or event. The solution was architected using AWS services, 
+                                primarily <b> Lambda, API Gateway, DynamoDB, IoT Core, Amplify, CDK </b> and the UI was built out using <b> ReactJS </b>. I also created wireframes for 
+                                the project to help put my vision on paper. 
+                        
+                                <div class="project-links">
+                                    <a href="https://github.com/darienhong/nautilus-serverless-app" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+                                        <div class="link"> <GitHubIcon style={{ fontSize: "16px" }} /> &nbsp; Github </div></a>
+                                        <a href="https://www.figma.com/proto/7BjCwn7q11nz8SboNDI6ES/nautilus-serverless-mockup?page-id=0%3A1&node-id=1-18&p=f&viewport=-36%2C397%2C0.37&t=6aRYtr5fKn6wIfhm-1&scaling=contain&content-scaling=fixed&starting-point-node-id=1%3A18&show-proto-sidebar=1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+                                        <div class="link">  Figma </div></a>
+                                </div>
+                                <br />
+                                <br />
+                            </p>
+                            )}
+
+                        </div>
+                    </div>
+                    <br />
+                </center>
+            )
+        }
+
 
 
         return (
@@ -329,6 +365,7 @@ export default class Projects extends Component {
                                     {/*   <Scrollbar renderThumbVertical={props => <div {...props} className="scrollbar" />} style={{color: "black"}}> */}
                                     <h2> my projects </h2>
                                     <div class="experience-description">
+                                        {projectBlock6()}
                                         {projectBlock1()}
                                         {projectBlock2()}
                                         {projectBlock3()}
