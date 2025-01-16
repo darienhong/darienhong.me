@@ -65,3 +65,8 @@ code {
   src: local('Display'), url(./fonts/DMSerifDisplay-Regular.ttf) format('truetype');
   -webkit-font-smoothing: antialiased;
 }
+
+@font-face {
+  font-family: 'ZTbros';
+  src: local('ZT Bros Oskon 90s'), url(./fonts/ZTBrosOskon90s-Regular.otf) format('opentype');
+}

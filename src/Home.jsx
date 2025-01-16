@@ -72,7 +72,7 @@ export default class Home extends Component {
                       <div class="homepage-text">
                          <h2> Hi, I'm Darien! </h2>
                           <p> I'm currently a Prototyping Architect at Amazon Web Services, building innovative solutions with emerging technologies for customers in all different industries. I'm interested in how technology is constantly evolving
-                              and creating technical solutions to real world problems. I'm a huge fan of people and learning how things work. </p>
+                              and creating technical solutions to real world problems. I want to continue learning new things and challenging myself in ways I haven't before. </p>
                           
                           <div class="contact">
                               <p style={{}}> Come say hi! </p>
