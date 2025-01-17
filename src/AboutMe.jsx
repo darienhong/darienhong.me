@@ -117,7 +117,7 @@ export default class AboutMe extends Component {
                           <p> 
                 Outside of work, I enjoy exploring new hobbies and learning new things about myself. My <b>current </b> obsessions and interests include: 
                 cooking healthy and interesting meals with whatever ingredients I have access to, crocheting cute animals, cross stitching,
-                board games, psychological and domestic thrillers, real estate, and dogs!! More specifically, my dog Miso (included on the right). 
+                board games, reading psychological and domestic thrillers, real estate, and dogs!! More specifically, my dog Miso (included on the right). 
 
 
                         

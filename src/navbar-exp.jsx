@@ -15,7 +15,7 @@ export default class NavbarExp extends Component {
             <nav>
                 <ul>
                     <li><Link to="/About"> About </Link></li>
-                    <li><Link to="/Experience" style={{color: "white"}}> Experience </Link></li>
+                    <li><Link to="/Experience" style={{color: "rgb(43, 115, 196)"}}> Experience </Link></li>
                     <li><Link to="/Projects"> Projects </Link></li>
                     <li><a href= {Pdf} target="_blank" rel="noopener noreferrer"> Resume </a></li>                </ul>
             </nav>

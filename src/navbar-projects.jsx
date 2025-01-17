@@ -17,7 +17,7 @@ export default class NavbarProjects extends Component {
                 <ul>
                     <li><Link to="/About"> About </Link></li>
                     <li><Link to="/Experience"> Experience </Link></li>
-                    <li><Link to="/Projects" style={{color: "white"}}> Projects </Link></li>
+                    <li><Link to="/Projects" style={{color: "rgb(43, 115, 196)"}}> Projects </Link></li>
                     <li><a href= {Pdf} target="_blank" rel="noopener noreferrer"> Resume </a></li>                </ul>
             </nav>
         </div>
