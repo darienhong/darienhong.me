@@ -18,6 +18,16 @@ code {
 }
 
 @font-face {
+  font-family: 'DMMono';
+  src: local('DMMono'), url(./fonts/DMMono-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: local('DMSans'), url(./fonts/DMSans-VariableFont_opsz\,wght.ttf) format('truetype');
+}
+
+@font-face {
   font-family: 'PlayFair';
   src: local('PlayFair'), url(./fonts/PlayfairDisplay-Regular.ttf) format('truetype');
 }
