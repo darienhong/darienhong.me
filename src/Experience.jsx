@@ -435,7 +435,7 @@ export default class Experience extends Component {
                                 </div>
                                 <div style={{ textAlign: "center" }}>
                                     <svg height={10} width={"100%"}>
-                                        <line class="svg-line" x1={0} x2={2000} y2={1} stroke="black" />
+                                        <line class="svg-line" x1={0} x2="100%" y2={1} stroke="black" />
                                     </svg>
                                 </div>
                                 <div class="experience-text">

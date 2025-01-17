@@ -65,7 +65,7 @@ export default class Home extends Component {
                      </div>
                       <div style={{textAlign: "center"}}>
                       <svg height={10} width={"100%"}>
-                          <line class="svg-line" x1={0} x2={1000} y2={1} stroke="black" />
+                          <line class="svg-line" x1={0} x2="100%" y2={1} stroke="black" />
                       </svg>
                       </div>
                       
