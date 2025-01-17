@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 import NavbarAbout from './navbar-about.jsx';
 import Image from './assets/me-new.JPG';
+import Lottie from 'lottie-react'
+import animationData from './animations/waves.json'
 import Image2 from './assets/me-new-2.jpg';
 import Footer from './footer.jsx';
-import {
-    Link
-  } from "react-router-dom";
+
 
 export default class AboutMe extends Component { 
 
@@ -34,6 +34,19 @@ export default class AboutMe extends Component {
 
         return (
             <div class="full-page">
+                <Lottie
+                    animationData={animationData}
+                    loop={true}
+                    autoplay={true}
+                    style={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        height: '100%',
+                        zIndex: -1
+                    }}
+                />
                 <NavbarAbout />
                 {display === false && (
                 <div class="appear-div" onClick={this.handleClickOpen}>

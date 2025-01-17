@@ -7,6 +7,8 @@ import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 import GitHubIcon from '@mui/icons-material/GitHub'
 import SlideshowIcon from '@mui/icons-material/Slideshow';
+import Lottie from 'lottie-react'
+import animationData from './animations/waves.json'
 
 export default class Projects extends Component {
     state = {
@@ -327,6 +329,19 @@ export default class Projects extends Component {
 
         return (
             <div class="full-page">
+                <Lottie
+                    animationData={animationData}
+                    loop={true}
+                    autoplay={true}
+                    style={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        height: '100%',
+                        zIndex: -1
+                    }}
+                />
                 <NavbarProjects />
                 {display === false && (
                     <div class="appear-div" onClick={this.handleClickOpen}>

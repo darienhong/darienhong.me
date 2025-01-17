@@ -20,6 +20,7 @@
   }
   .homepage, .about, .experience {
     width: 90% !important; 
+
   }
   
   .about, .experience { 
@@ -420,10 +421,13 @@ nav a:hover::before {
 
 
 .full-page {
-  background-image: url(./assets/whitepng.png); 
+  /*background-image: url(./assets/whitepng.png); */
+  background-color: aliceblue;
   background-size: cover;
   height: 100vh; 
   width: 100%;
+  position: absolute;
+  z-index: -2;
   background-repeat: repeat;
   text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern" 1;

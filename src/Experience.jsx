@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import NavbarExp from './navbar-exp.jsx';
 import Footer from './footer.jsx';
+import Lottie from 'lottie-react'
+import animationData from './animations/waves.json'
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 
@@ -404,6 +406,19 @@ export default class Experience extends Component {
 
         return (
             <div class="full-page">
+                <Lottie
+                    animationData={animationData}
+                    loop={true}
+                    autoplay={true}
+                    style={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        height: '100%',
+                        zIndex: -1
+                    }}
+                />
                 <NavbarExp />
                 {display === false && (
                     <div class="appear-div" onClick={this.handleClickOpen}>
